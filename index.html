@@ -1,56 +1,23 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mercería Alonso</title>
-    
-    <meta name="description" content="Merceria Alonso, en Majadahonda durante más de 30 años" />
-    
-    <meta name="keywords" content="merceria, lana, hilo, Alonso, merceria Alonso, Majadahonda, Las Rozas, tela, abalorio" />
-    <meta name="distribution" content="Global">
-    <meta name="author" content="xavijam">
-    <meta name="detail" content="merceria Alonso website">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+---
+layout: default
+---
 
-    <meta name="DC.title" content="merceriaalonso">
-    <meta name="geo.region" content="ES-M">
-    <meta name="geo.placename" content="Majadahonda">
-    <meta name="geo.position" content="40.474194317445, -3.87305472591857">
-    <meta name="ICBM" content="40.474194317445, -3.87305472591857">
+<div class="home">
 
-    <meta property="og:title" content="mercería Alonso"/>
-    <meta property="og:description" content="Mercería Alonso en Majadahonda"/> 
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://merceriaalonso.com" />
-    <meta property="og:image" content="img/merceria-alonso.jpg"/>
-    
-    <link rel="canonical" href="http://merceriaalonso.com">
-    <link href="img/favicon.ico" rel="icon">
-    <link href='http://fonts.googleapis.com/css?family=Lato:lighter,regular,bold&amp;subset=latin' rel='stylesheet'>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="pure-g">
-        <div class="pure-u-1-1">
-          <div class="l-box">
-            <h1>
-              <i class="icon zip"></i>
-              <span class="name">Mercería<br/>Alonso</span>
-            </h1>
-            <h2>Próxima apertura</h2>
-            <h3>Taller de costura y labores</h3>
-            <p>Escríbenos a <a href="mailto:info@merceriaalonso.com">info@merceriaalonso.com</a> o llama al <a href="tel:916385477">916385477</a><br/>y te informaremos sobre las clases que impartiremos proximamente.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

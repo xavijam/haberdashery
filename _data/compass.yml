@@ -1,0 +1,6 @@
+output_style: compact
+http_path: '/'
+sass_dir: '_scss'
+css_dir: 'css'
+images_dir: 'img'
+javascripts_dir: 'js'

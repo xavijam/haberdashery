@@ -1,0 +1,333 @@
+/** Styles for haberdashery site :) */
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
+*/
+/* line 6, ../../_scss/vendor/reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../_scss/vendor/reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+/* line 31, ../../_scss/vendor/reset.scss */
+body { line-height: 1; }
+
+/* line 34, ../../_scss/vendor/reset.scss */
+ol, ul { list-style: none; }
+
+/* line 37, ../../_scss/vendor/reset.scss */
+blockquote, q { quotes: none; }
+
+/* line 40, ../../_scss/vendor/reset.scss */
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* line 45, ../../_scss/vendor/reset.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+/* line 9, ../../_scss/vendor/normalize.scss */
+html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/** Remove default margin. */
+/* line 19, ../../_scss/vendor/normalize.scss */
+body { margin: 0; }
+
+/* HTML5 display definitions ========================================================================== */
+/** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
+/* line 32, ../../_scss/vendor/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+
+/** 1. Correct `inline-block` display not defined in IE 8/9. 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
+/* line 52, ../../_scss/vendor/normalize.scss */
+audio, canvas, progress, video { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+
+/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+/* line 65, ../../_scss/vendor/normalize.scss */
+audio:not([controls]) { display: none; height: 0; }
+
+/** Address `[hidden]` styling not present in IE 8/9/10. Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22. */
+/* line 75, ../../_scss/vendor/normalize.scss */
+[hidden], template { display: none; }
+
+/* Links ========================================================================== */
+/** Remove the gray background color from active links in IE 10. */
+/* line 87, ../../_scss/vendor/normalize.scss */
+a { background: transparent; }
+
+/** Improve readability when focused and also mouse hovered in all browsers. */
+/* line 95, ../../_scss/vendor/normalize.scss */
+a:active, a:hover { outline: 0; }
+
+/* Text-level semantics ========================================================================== */
+/** Address styling not present in IE 8/9/10/11, Safari, and Chrome. */
+/* line 107, ../../_scss/vendor/normalize.scss */
+abbr[title] { border-bottom: 1px dotted; }
+
+/** Address style set to `bolder` in Firefox 4+, Safari, and Chrome. */
+/* line 115, ../../_scss/vendor/normalize.scss */
+b, strong { font-weight: bold; }
+
+/** Address styling not present in Safari and Chrome. */
+/* line 124, ../../_scss/vendor/normalize.scss */
+dfn { font-style: italic; }
+
+/** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari, and Chrome. */
+/* line 133, ../../_scss/vendor/normalize.scss */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/** Address styling not present in IE 8/9. */
+/* line 142, ../../_scss/vendor/normalize.scss */
+mark { background: #ff0; color: #000; }
+
+/** Address inconsistent and variable font size in all browsers. */
+/* line 151, ../../_scss/vendor/normalize.scss */
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+/* line 159, ../../_scss/vendor/normalize.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 167, ../../_scss/vendor/normalize.scss */
+sup { top: -0.5em; }
+
+/* line 171, ../../_scss/vendor/normalize.scss */
+sub { bottom: -0.25em; }
+
+/* Embedded content ========================================================================== */
+/** Remove border when inside `a` element in IE 8/9/10. */
+/* line 182, ../../_scss/vendor/normalize.scss */
+img { border: 0; }
+
+/** Correct overflow not hidden in IE 9/10/11. */
+/* line 190, ../../_scss/vendor/normalize.scss */
+svg:not(:root) { overflow: hidden; }
+
+/* Grouping content ========================================================================== */
+/** Address margin not present in IE 8/9 and Safari. */
+/* line 201, ../../_scss/vendor/normalize.scss */
+figure { margin: 1em 40px; }
+
+/** Address differences between Firefox and other browsers. */
+/* line 209, ../../_scss/vendor/normalize.scss */
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+/** Contain overflow in all browsers. */
+/* line 219, ../../_scss/vendor/normalize.scss */
+pre { overflow: auto; }
+
+/** Address odd `em`-unit font size rendering in all browsers. */
+/* line 227, ../../_scss/vendor/normalize.scss */
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+/* Forms ========================================================================== */
+/** Known limitation: by default, Chrome and Safari on OS X allow very limited styling of `select`, unless a `border` property is set. */
+/** 1. Correct color not being inherited. Known issue: affects color of disabled elements. 2. Correct font properties not being inherited. 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
+/* line 250, ../../_scss/vendor/normalize.scss */
+button, input, optgroup, select, textarea { color: inherit; /* 1 */ font: inherit; /* 2 */ margin: 0; /* 3 */ }
+
+/** Address `overflow` set to `hidden` in IE 8/9/10/11. */
+/* line 264, ../../_scss/vendor/normalize.scss */
+button { overflow: visible; }
+
+/** Address inconsistent `text-transform` inheritance for `button` and `select`. All other form control elements do not inherit `text-transform` values. Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct `select` style inheritance in Firefox. */
+/* line 275, ../../_scss/vendor/normalize.scss */
+button, select { text-transform: none; }
+
+/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls. 2. Correct inability to style clickable `input` types in iOS. 3. Improve usability and consistency of cursor style between image-type `input` and others. */
+/* line 288, ../../_scss/vendor/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ }
+
+/** Re-set default cursor for disabled elements. */
+/* line 300, ../../_scss/vendor/normalize.scss */
+button[disabled], html input[disabled] { cursor: default; }
+
+/** Remove inner padding and border in Firefox 4+. */
+/* line 309, ../../_scss/vendor/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/** Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
+/* line 320, ../../_scss/vendor/normalize.scss */
+input { line-height: normal; }
+
+/** It's recommended that you don't attempt to style these elements. Firefox's implementation doesn't respect box-sizing, padding, or width.  1. Address box sizing set to `content-box` in IE 8/9/10. 2. Remove excess padding in IE 8/9/10. */
+/* line 332, ../../_scss/vendor/normalize.scss */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Fix the cursor style for Chrome's increment/decrement buttons. For certain `font-size` values of the `input`, it causes the cursor style of the decrement button to change from `default` to `text`. */
+/* line 344, ../../_scss/vendor/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Address `appearance` set to `searchfield` in Safari and Chrome. 2. Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof). */
+/* line 355, ../../_scss/vendor/normalize.scss */
+input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; }
+
+/** Remove inner padding and search cancel button in Safari and Chrome on OS X. Safari (but not Chrome) clips the cancel button when the search input has padding (and `textfield` appearance). */
+/* line 368, ../../_scss/vendor/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** Define consistent border, margin, and padding. */
+/* line 377, ../../_scss/vendor/normalize.scss */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/** 1. Correct `color` not being inherited in IE 8/9/10/11. 2. Remove padding so people aren't caught out if they zero out fieldsets. */
+/* line 388, ../../_scss/vendor/normalize.scss */
+legend { border: 0; /* 1 */ padding: 0; /* 2 */ }
+
+/** Remove default vertical scrollbar in IE 8/9/10/11. */
+/* line 397, ../../_scss/vendor/normalize.scss */
+textarea { overflow: auto; }
+
+/** Don't inherit the `font-weight` (applied by a rule above). NOTE: the default cannot safely be changed in Chrome and Safari on OS X. */
+/* line 406, ../../_scss/vendor/normalize.scss */
+optgroup { font-weight: bold; }
+
+/* Tables ========================================================================== */
+/** Remove most spacing between table cells. */
+/* line 417, ../../_scss/vendor/normalize.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 422, ../../_scss/vendor/normalize.scss */
+td, th { padding: 0; }
+
+/** Buttons and links for haberdashery  */
+/* line 11, ../../_scss/config/buttons.scss */
+a { color: #00B285; text-decoration: underline; }
+
+/* line 17, ../../_scss/config/buttons.scss */
+.btn { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; padding: 8px 10px; text-transform: uppercase; border: 2px solid #00B285; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; font-size: 14px; font-family: 'Cabin', Arial; text-decoration: none; }
+/* line 36, ../../_scss/config/buttons.scss */
+.btn.wide { padding-left: 20px; padding-right: 20px; }
+/* line 44, ../../_scss/config/buttons.scss */
+.btn.green { color: #00B285; border-color: #00B285; }
+
+/* line 12, ../../_scss/main.scss */
+h2, h3, h4 { font-family: 'Cabin', Arial; font-weight: 500; }
+
+/** jQuery week calendar default styles  */
+/* line 7, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container { font-size: 14px; font-family: arial, helvetica; }
+
+/* line 12, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-nav { padding: 1em; text-align: right; }
+
+/* line 17, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-nav button { margin: 0 0.5em; }
+
+/* line 22, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 26, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container table td { margin: 0; padding: 0; }
+
+/* line 31, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header { background: #eee; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; width: 100%; }
+
+/* line 38, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-time-column-header { width: 6%; }
+
+/* line 42, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-scrollbar-shim { display: none; }
+
+/* line 46, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-day-column-header { text-align: center; padding: 0.4em; }
+
+/* line 50, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header td { background-color: #eee; }
+
+/* line 54, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-grid-timeslot-header { width: 6%; background: #eee; }
+
+/* line 61, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-scrollable-grid { overflow: auto; overflow-x: hidden !important; overflow-y: auto !important; position: relative; background-color: #fff; width: 100%; }
+
+/* line 71, ../../_scss/vendor/jquery.weekcalendar.scss */
+table.wc-time-slots { width: 100%; table-layout: fixed; cursor: default; }
+
+/* line 77, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-column { width: 13.5%; border-left: 1px solid #ddd; overflow: visible; vertical-align: top; }
+
+/* line 84, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-column-inner { width: 100%; position: relative; }
+
+/* line 89, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot-wrapper { position: relative; height: 1px; top: 1px; }
+
+/* line 95, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slots { position: absolute; width: 100%; }
+
+/* line 101, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-header-cell { padding: 5px; height: 80px; /* reference height */ }
+
+/* line 107, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot { border-bottom: 1px dotted #ddd; }
+
+/* line 111, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-hour-header { text-align: right; }
+
+/* line 115, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-hour-end, .wc-hour-header { border-bottom: 1px solid #ccc; color: #555; }
+
+/* line 120, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-business-hours { background-color: #E6EEF1; border-bottom: 1px solid #ccc; color: #333; font-size: 1.4em; }
+
+/* line 127, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-business-hours .wc-am-pm { font-size: 0.6em; }
+
+/* line 131, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-header-cell { text-align: center; vertical-align: middle; padding: 5px; }
+
+/* line 139, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot-header .wc-header-cell { text-align: right; padding-right: 10px; }
+
+/* line 144, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-today { font-weight: bold; }
+
+/* line 148, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slots .wc-today { background-color: #ffffcc; }
+
+/* line 153, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event { background-color: #68a1e5; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; opacity: 0.8; position: absolute; text-align: center; overflow: hidden; cursor: pointer; color: #fff; width: 100%; display: none; }
+
+/* line 169, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event div { padding: 0 5px; }
+
+/* line 174, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event .wc-time { background-color: #2b72d0; border: 1px solid #1b62c0; color: #fff; padding: 0; font-weight: bold; }
+
+/* line 182, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-draggable .wc-time { cursor: move; }
+
+/* line 186, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event .wc-title { position: relative; }
+
+/* line 190, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-resizable-s { height: 10px; bottom: -8px; }
+
+/* line 196, ../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-draggable-dragging { z-index: 1000; }
+
+/** Styles for workshop page  */
+/* line 10, ../../_scss/workshop.scss */
+.workshop-content { max-width: 874px; margin: 0 auto; }
+/* line 14, ../../_scss/workshop.scss */
+.workshop-content section.workshop-item { position: relative; display: block; width: 100%; padding: 100px 0; overflow: auto; }
+/* line 24, ../../_scss/workshop.scss */
+.workshop-content .workshop-type-content, .workshop-content .workshop-type-image { width: 45%; padding: 2%; }
+/* line 30, ../../_scss/workshop.scss */
+.workshop-content .workshop-align-left { float: left; }
+/* line 33, ../../_scss/workshop.scss */
+.workshop-content .workshop-align-right { float: right; }
+/* line 39, ../../_scss/workshop.scss */
+.workshop-content .workshop-type-image img { position: absolute; top: 30%; }
+/* line 44, ../../_scss/workshop.scss */
+.workshop-content .workshop-type-image.workshop-align-right, .workshop-content .workshop-type-image.workshop-align-left { float: none; }
+/* line 47, ../../_scss/workshop.scss */
+.workshop-content .workshop-type-image.workshop-align-left img { left: 10%; }
+/* line 51, ../../_scss/workshop.scss */
+.workshop-content .workshop-type-image.workshop-align-right img { right: 10%; }
+/* line 60, ../../_scss/workshop.scss */
+.workshop-content h4 { font-size: 25px; color: #666666; }
+/* line 65, ../../_scss/workshop.scss */
+.workshop-content .btn.calendar { margin-top: 20px; }
+/* line 67, ../../_scss/workshop.scss */
+.workshop-content p { margin-top: 20px; font-family: Arial; font-size: 15px; line-height: 21px; color: #999999; }

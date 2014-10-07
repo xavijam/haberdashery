@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="header-content">
+      {% include header.html %}
+      <div class="workshop-title">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+      </div>
+      {% include workshop/navigation.html %}
+    </div>
+    <div class="workshop-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

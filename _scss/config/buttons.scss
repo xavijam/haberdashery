@@ -1,0 +1,56 @@
+  
+  /**
+   *  Buttons and links for haberdashery
+   *
+   */
+
+  @import "compass/css3/border-radius";
+  @import "compass/css3/inline-block";
+
+
+  a {
+    color:#00B285;
+    text-decoration:underline
+  }
+
+
+  .btn {
+    // Default
+    @include inline-block();
+    padding:8px 10px;
+    text-transform: uppercase;
+    border:2px solid #00B285;
+    @include border-radius(4px);
+    font-size:14px;
+    font-family: 'Cabin', Arial;
+    text-decoration:none;
+
+
+    // //
+
+
+
+
+    // Shape types //
+    
+    &.wide {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+
+    // Color types //
+
+    &.green {
+      color:#00B285;
+      border-color: #00B285;
+    }
+
+    &.pink {
+
+    }
+
+    &.purple {
+
+    }
+  }

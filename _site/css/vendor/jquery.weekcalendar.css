@@ -1,0 +1,102 @@
+/** jQuery week calendar default styles  */
+/* line 7, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container { font-size: 14px; font-family: arial, helvetica; }
+
+/* line 12, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-nav { padding: 1em; text-align: right; }
+
+/* line 17, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-nav button { margin: 0 0.5em; }
+
+/* line 22, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 26, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container table td { margin: 0; padding: 0; }
+
+/* line 31, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header { background: #eee; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; width: 100%; }
+
+/* line 38, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-time-column-header { width: 6%; }
+
+/* line 42, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-scrollbar-shim { display: none; }
+
+/* line 46, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-day-column-header { text-align: center; padding: 0.4em; }
+
+/* line 50, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header td { background-color: #eee; }
+
+/* line 54, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-grid-timeslot-header { width: 6%; background: #eee; }
+
+/* line 61, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-scrollable-grid { overflow: auto; overflow-x: hidden !important; overflow-y: auto !important; position: relative; background-color: #fff; width: 100%; }
+
+/* line 71, ../../../_scss/vendor/jquery.weekcalendar.scss */
+table.wc-time-slots { width: 100%; table-layout: fixed; cursor: default; }
+
+/* line 77, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-column { width: 13.5%; border-left: 1px solid #ddd; overflow: visible; vertical-align: top; }
+
+/* line 84, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-column-inner { width: 100%; position: relative; }
+
+/* line 89, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot-wrapper { position: relative; height: 1px; top: 1px; }
+
+/* line 95, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slots { position: absolute; width: 100%; }
+
+/* line 101, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-header-cell { padding: 5px; height: 80px; /* reference height */ }
+
+/* line 107, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot { border-bottom: 1px dotted #ddd; }
+
+/* line 111, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-hour-header { text-align: right; }
+
+/* line 115, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-hour-end, .wc-hour-header { border-bottom: 1px solid #ccc; color: #555; }
+
+/* line 120, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-business-hours { background-color: #E6EEF1; border-bottom: 1px solid #ccc; color: #333; font-size: 1.4em; }
+
+/* line 127, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-business-hours .wc-am-pm { font-size: 0.6em; }
+
+/* line 131, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-day-header-cell { text-align: center; vertical-align: middle; padding: 5px; }
+
+/* line 139, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slot-header .wc-header-cell { text-align: right; padding-right: 10px; }
+
+/* line 144, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-header .wc-today { font-weight: bold; }
+
+/* line 148, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-time-slots .wc-today { background-color: #ffffcc; }
+
+/* line 153, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event { background-color: #68a1e5; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; opacity: 0.8; position: absolute; text-align: center; overflow: hidden; cursor: pointer; color: #fff; width: 100%; display: none; }
+
+/* line 169, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event div { padding: 0 5px; }
+
+/* line 174, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event .wc-time { background-color: #2b72d0; border: 1px solid #1b62c0; color: #fff; padding: 0; font-weight: bold; }
+
+/* line 182, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-draggable .wc-time { cursor: move; }
+
+/* line 186, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-cal-event .wc-title { position: relative; }
+
+/* line 190, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-resizable-s { height: 10px; bottom: -8px; }
+
+/* line 196, ../../../_scss/vendor/jquery.weekcalendar.scss */
+.wc-container .ui-draggable-dragging { z-index: 1000; }

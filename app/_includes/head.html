@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
+  
+  <!-- build:css({app,.tmp}) /css/main.css -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/vendor/reset.css">
+  <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="/css/vendor/jquery.weekcalendar.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/ui/buttons.css">
+  <link rel="stylesheet" href="/css/workshop.css">
+  <!-- endbuild -->
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

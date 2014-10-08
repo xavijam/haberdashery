@@ -1,22 +1,40 @@
-# Gems
-gems:
-- jekyll-compass
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
 
+name: haberdashery
+description: Mercería Alonso website
+author:
+  name: xavijam
+  email: xavijam@gmail.com
 
-# Site settings
-title:        Mercería Alonso
-email:        info@merceriaalonso.com
-description:  > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          "http://merceriaalonso.com"
-timezone:     Europe/Madrid
-encoding:     utf-8
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-# Build settings
-markdown:     kramdown
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: kramdown
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+#   coderay:
+#     coderay_wrap: div
+#     coderay_line_numbers: inline
+#     coderay_line_numbers_start: 1
+#     coderay_tab_width: 4
+#     coderay_bold_every: 10
+#     coderay_css: style
+
+pygments: false
 
 
 # Collections
@@ -25,9 +43,3 @@ collections:
     output: true
   productos:  # Productos
     output: true
-
-
-# Compressed layout
-compress_html:
-  clippings: []
-  endings: []

@@ -1,0 +1,19 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', Arial;
+  font-weight: 500;
+  font-size: 100%;
+}

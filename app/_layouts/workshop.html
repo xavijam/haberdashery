@@ -2,11 +2,13 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="header-content">
+    <div class="header-content {{ page.type }}">
       {% include header.html %}
       <div class="workshop-title">
-        <h2>{{ page.title }}</h2>
-        <p>{{ page.description }}</p>
+        <div class="workshop-title-inner">
+          <h2>Taller de<br/>costura y labores</h2>
+          <p>Elige cualquiera de nuestros cursos o alquila<br/>una máquina por tu cuenta</p>
+        </div>
       </div>
       {% include workshop/navigation.html %}
     </div>

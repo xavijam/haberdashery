@@ -1,13 +1,11 @@
-<header class="site-header">
-  <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <nav class="site-nav">
-      <a href="#" class="menu-icon"></a>
-      {% for page in site.pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
+<header>
+  <div class="inner">
+    <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <nav>
+      <a href="/taller/" class="">taller</a>
+      <a href="/productos/" class="">productos</a>
+      <a href="#/localizacion" class="">localización</a>
+      <a href="#/contacto" class="">contacto</a>
     </nav>
   </div>
 </header>

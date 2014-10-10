@@ -2,19 +2,20 @@
 layout:       workshop
 title:        Cursos mensuales - Mercería Alonso
 description:  Elige cualquiera de nuestros cursos o alquila una máquina por tu cuenta
+keywords:     >
+  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,curso ganchillo,ganchillo,corte y confección,curso corte y confección,mercería,merceria,mercería alonso,majadahonda,madrid
+type:         monthly
 permalink:    /taller/
 ---
 
 <article>
 
-  <div class="pure-g">
-    <div class="pure-u-1">
-      <div class="l-box">
-        <h4>Cursos mensuales</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
+  <section class="workshop-item workshop-item-center">
+    <div class="workshop-item-inner">
+      <h3>Cursos mensuales</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-  </div>
+  </section>
 
   <section class="workshop-item">
     <div class="workshop-align-left workshop-type-image">
@@ -75,13 +76,17 @@ permalink:    /taller/
       <a href="#/calendario" class="calendar btn wide green">Clases disponibles</a>
     </div>
   </section>
+</article>
 
-  <section class="workshop-calendar">
-    <h3>Calendario</h3>
-    <p></p>
-
+<article class="workshop-calendar">
+  <section class="workshop-item workshop-item-center">
+    <div class="workshop-item-inner">
+      <h4>Calendario</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
     <div id="calendar"></div>
   </section>
+</article>
 
   <script>var classes = {{ site.data.workshop | jsonify }}</script>
   
@@ -94,4 +99,3 @@ permalink:    /taller/
   <script src="/js/workshop/workshop.js"></script>
   <!-- endbuild -->
   
-</article>

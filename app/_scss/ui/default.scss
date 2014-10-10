@@ -1,0 +1,18 @@
+
+  /**
+   *  Default styles for dom elements
+   *
+   */
+
+  @import "vars";
+
+  a {
+    color:#00B285;
+    text-decoration:underline
+  }
+
+  section {
+    max-width:$w;
+    margin:0 auto;
+    padding:0 20px;
+  }

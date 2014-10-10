@@ -1,17 +1,17 @@
   
   /**
-   *  Buttons and links for haberdashery
+   *  Buttons and special links for haberdashery
    *
    */
 
   @import "compass/css3/border-radius";
   @import "compass/css3/inline-block";
+  @import "compass/css3/transform";
+  @import "compass/css3/transition";
 
 
-  a {
-    color:#00B285;
-    text-decoration:underline
-  }
+  $green: #00B285;
+  $green_hover: #008C69;
 
 
   .btn {
@@ -19,17 +19,19 @@
     @include inline-block();
     padding:8px 10px;
     text-transform: uppercase;
-    border:2px solid #00B285;
+    border:2px solid #CCC;
     @include border-radius(4px);
     font-size:14px;
     font-family: 'Cabin', Arial;
     text-decoration:none;
+    @include transform-style("linear");
+    @include transition-property("border,color");
+    @include transition-duration(250ms);
 
-
-    // //
-
-
-
+    &:hover {
+      border-color: #999;
+      color: #999;
+    }
 
     // Shape types //
     
@@ -42,8 +44,13 @@
     // Color types //
 
     &.green {
-      color:#00B285;
-      border-color: #00B285;
+      color: $green;
+      border-color: $green;
+
+      &:hover {
+        color: $green_hover;
+        border-color: $green_hover;
+      }
     }
 
     &.pink {

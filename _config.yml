@@ -4,7 +4,13 @@
 # 3. config.yml
 
 name: haberdashery
-description: Mercería Alonso website
+title: Mercería Alonso
+description: >
+  Mercería Alonso, desde 1984 ayudándote a conseguir tu estilo
+keywords: >
+  clases,cursos mensuales,cursos,patchwork,punto,ganchillo,
+  corte y confección,mercería,merceria,mercería alonso,majadahonda,
+  madrid
 author:
   name: xavijam
   email: xavijam@gmail.com

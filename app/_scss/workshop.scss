@@ -8,61 +8,19 @@
 
   
   .workshop-content {
-    max-width:874px;
     margin: 0 auto;
 
-    section.workshop-item {
-      position:relative;
-      display:block;
-      width:100%;
-      padding:100px 0;
-      overflow:auto;
-    }
-
-    // Alignment for two elements -> content and image
-
-    .workshop-type-content,
-    .workshop-type-image {
-      width:45%;
-      padding:2%
-    }
-
-    .workshop-align-left {
-      float: left;
-    }
-    .workshop-align-right {
-      float: right;
-    }
-
-    .workshop-type-image {
-
-      img {
-        position:absolute;
-        top:30%;
-      }
-
-      &.workshop-align-right,
-      &.workshop-align-left { float:none }
-      
-      &.workshop-align-left img {
-        left: 10%;
-      }
-
-      &.workshop-align-right img {
-        right:10%;
-      }
-    }
-    
-
-
     // Styles
+
+    h3 {
+      font-size: 28px;
+      color: #434343;
+    }
 
     h4 {
       font-size: 25px;
       color: #666666;
     }
-
-    .btn.calendar { margin-top:20px }
 
     p {
       margin-top:20px;
@@ -71,5 +29,105 @@
       line-height:21px;
       color:#999999;
     }
+  }
+
+  // Workshop 'header'
+  .header-content {
+    &.monthly {
+      background:url('/img/workshop/workshop-bkg-green.jpg') no-repeat 0 0;
+      background-size:100% auto;
+    }
+  }
+
+
+  .workshop-title {
+    display:block;
+    padding:180px 0;
+    text-align:center;
+    
+    .workshop-title-inner {
+      max-width:500px;
+      margin:0 auto;
+    }
+
+    h2 {
+      font-size:32px;
+      color:white;
+      text-transform: uppercase;
+    }
+
+    p {
+      display:block;
+      margin-top:20px;
+      font-family: 'Cabin',Arial;
+      font-size: 19px;
+      font-weight:300;
+      color: rgba(white,.8);
+    }
 
   }
+
+
+  // Workshop items
+
+  .workshop-item {
+    position:relative;
+    display:block;
+    width:100%;
+    padding:100px 0;
+    overflow:auto;
+  }
+
+  .workshop-item-inner {
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .workshop-item-center {
+    position:relative;
+    display:block;
+    width:100%;
+    padding:50px 0 50px;
+    overflow:auto;
+  }
+
+  // Alignment for two elements -> content and image
+
+  .workshop-type-content,
+  .workshop-type-image {
+    width:45%;
+    padding:2%
+  }
+
+  .workshop-align-left { float: left }
+  .workshop-align-right { float: right }
+
+  .workshop-type-image {
+
+    img {
+      position:absolute;
+      top:30%;
+    }
+
+    &.workshop-align-right,
+    &.workshop-align-left { float:none }
+    
+    &.workshop-align-left img {
+      left: 10%;
+    }
+
+    &.workshop-align-right img {
+      right:10%;
+    }
+  }
+  
+
+  // Calendar
+  .workshop-calendar {
+    background:#F7F7F7;  
+  }
+  
+  .btn.calendar { margin-top:20px }
+
+

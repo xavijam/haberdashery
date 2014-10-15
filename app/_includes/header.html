@@ -2,10 +2,10 @@
   <div class="inner">
     <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
-      <a href="/taller/" class="">taller</a>
-      <a href="/productos/" class="">productos</a>
-      <a href="#/localizacion" class="">localización</a>
-      <a href="#/contacto" class="">contacto</a>
+      <a href="/taller/" class="{% if page.url == '/taller/' %} selected {% endif %}">taller</a>
+      <a href="/productos/" class="{% if page.url == '/productos/' %} selected {% endif %}">productos</a>
+      <a href="/localizacion/" class="{% if page.url == '/localizacion/' %} selected {% endif %}">localización</a>
+      <a href="/contacto/" class="{% if page.url == '/contacto/' %} selected {% endif %}">contacto</a>
     </nav>
   </div>
 </header>

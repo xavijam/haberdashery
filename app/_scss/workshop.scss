@@ -5,8 +5,11 @@
    */
 
   @import "compass/css3/inline-block";
+  @import "compass/css3/border-radius";
+  @import "ui/vars";
 
   
+  // Default content
   .workshop-content {
     margin: 0 auto;
 
@@ -29,7 +32,18 @@
       line-height:21px;
       color:#999999;
     }
+
+    strong { color:#333 }
+
+    .separator {
+      @include inline-block();
+      width:100px;
+      height:1px;
+      margin-top:20px;
+      background:#CCC;
+    }
   }
+
 
   // Workshop 'header'
   .header-content {
@@ -39,7 +53,53 @@
     }
   }
 
+  // Workshop navigation
+  .workshop-navigation {
+    background:rgba(0,0,0,0.1);
+    border-top:1px solid rgba(0,0,0,.2);
+    border-bottom:1px solid rgba(0,0,0,.2);
 
+    .workshop-navigation-inner {
+      max-width: $w;
+      margin:0 auto;
+      text-align: center;
+    }
+
+    a {
+      @include inline-block();
+      padding:0 60px;
+      line-height:60px;
+      color:rgba(white,.7);
+      font-size:17px;
+      font-weight:300;
+      border-right:1px solid rgba(0,0,0,.2);
+      text-transform:uppercase;
+      text-decoration:none;
+
+      &:first-child {
+        padding-left:0;
+      }
+      
+      &:last-child {
+        padding-right:0;
+        border-right:none;
+      }
+
+      &:hover {
+        color:white;
+        text-decoration: underline;
+      }
+    }
+    
+    a.selected {
+      color:white;
+      text-decoration: none;
+      &:hover { cursor:default }
+    }
+  }
+
+
+  // Workshop title
   .workshop-title {
     display:block;
     padding:180px 0;
@@ -78,18 +138,27 @@
     overflow:auto;
   }
 
+  .workshop-item-odd {
+    background:#F7F7F7;
+  }
+
   .workshop-item-inner {
-    max-width: 500px;
+    max-width: $w;
     margin:0 auto;
-    text-align: center;
   }
 
   .workshop-item-center {
     position:relative;
     display:block;
     width:100%;
-    padding:50px 0 50px;
+    padding:150px 0;
     overflow:auto;
+
+    .workshop-item-inner {
+      max-width: 560px;
+      margin:0 auto;
+      text-align: center;
+    }
   }
 
   // Alignment for two elements -> content and image
@@ -104,30 +173,70 @@
   .workshop-align-right { float: right }
 
   .workshop-type-image {
+    text-align:center;
 
-    img {
-      position:absolute;
-      top:30%;
-    }
+    img {}
 
-    &.workshop-align-right,
-    &.workshop-align-left { float:none }
+    // &.workshop-align-right,
+    // &.workshop-align-left { float:none }
     
-    &.workshop-align-left img {
-      left: 10%;
-    }
-
-    &.workshop-align-right img {
-      right:10%;
-    }
+    &.workshop-align-left img { left:15% }
+    &.workshop-align-right img { right:15% }
   }
   
 
   // Calendar
-  .workshop-calendar {
-    background:#F7F7F7;  
-  }
   
   .btn.calendar { margin-top:20px }
+
+  #calendar {
+    margin-top:100px;
+
+    .wc-header td {
+      padding:5px 0;
+      background:#333;
+      font-size:14px;
+      font-weight:normal;
+      color:white;
+    }
+
+    .wc-day-column {
+      border-color:white;
+      background:#F7F7F7;
+    }
+
+    .wc-time-slot { border-color:white }
+    .wc-hour-end { border-color:white }
+    // .wc-header .wc-day-column-header { padding: 0.6em }
+    .wc-grid-timeslot-header { background: #EFEFEF }
+
+    .wc-cal-event { @include border-radius(3px) }
+
+    .wc-cal-event .wc-time {
+      background:none;
+      border:none;
+    }
+
+    .wc-cal-event div { padding:0 10px }
+
+    .wc-title {
+      font:normal 14px 'Cabin',Arial;
+      color:rgba(black,.8);
+      text-align:left;
+    }
+
+    .wc-time {
+      margin:5px 0;
+      font:bold 11px 'Montserrat',Arial;
+      color:rgba(black,.4);
+      text-align:left;
+    }
+
+    .wc-business-hours {
+      font:normal 13px Arial;
+      color:#888888;
+      border-color:white
+    }
+  }
 
 

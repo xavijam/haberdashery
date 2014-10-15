@@ -1,12 +1,11 @@
 
 $(document).ready(function() {
 
-
    var $calendar = $('#calendar');
    var id = 10;
 
    $calendar.weekCalendar({
-    timeFormat : "h",
+    timeFormat : "h:i",
     date: new Date(),
     dateFormat : "",
     timeslotsPerHour : 3,
@@ -17,6 +16,7 @@ $(document).ready(function() {
     daysToShow : 6,
     use24Hour : true,
     useShortDayNames: true,
+    timeSeparator: " - ",
     buttons: false,
     height : function($calendar) {
       return $(window).height()
@@ -36,21 +36,19 @@ $(document).ready(function() {
     data : function(start, end, callback) {
        callback(getEventData());
     },
+    readonly: true,
     shortDays : ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],
     longDays : ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
    });
 
    function getEventData() {
-      // var year = new Date().getFullYear();
-      // var month = new Date().getMonth();
-      // var day = new Date().getDate();
-
       var events = _.clone(classes);
 
       return _.map(events.classes, function(item, i){
         item.id = i;
-        item.start = new Date(item.start);
-        item.end = new Date(item.end);
+        item.start = new Date(moment().day(item.day).hour(item.hourStart).minute(item.minStart).second(0).format());
+        item.end = new Date(moment().day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0).format());
+        item.color = events.types[ item.title ];
         return item
       });
    }

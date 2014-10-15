@@ -1,32 +1,100 @@
 {
+  "types": {
+    "Punto":              "#C6D0EB",
+    "Corte y confección": "#ADF3E8",
+    "Ganchillo":          "#FFCCCB",
+    "Patchwork":          "#F4E6A3"
+  },
   
   "classes": [
     {
-      "type":   "monthly",
-      "title":  "Corte y confección",
-      "start":  "2014-10-07 16:00",
-      "end":    "2014-10-07 18:00"
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "monday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
     },
 
     {
-      "type":   "monthly",
-      "title":  "HUR!",
-      "start":  "2014-10-07 17:00",
-      "end":    "2014-10-07 19:00"
+      "type":       "monthly",
+      "title":      "Ganchillo",
+      "day":        "monday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
     },
 
     {
-      "type":   "monthly",
-      "title":  "HUR!",
-      "start":  "2014-10-07 18:00",
-      "end":    "2014-10-07 20:00"
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "monday",
+      "hourStart":  "17",
+      "minStart":   "0",
+      "hourEnd":    "19",
+      "minEnd":     "0"
     },
 
     {
-      "type":   "specific",
-      "title":  "Specific dude",
-      "start":  "2014-10-10 10:00",
-      "end":    "2014-10-10 12:00"
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "tuesday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Patchwork",
+      "day":        "tuesday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "wednesday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "thursday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "saturday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "saturday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
     }
   ]
 

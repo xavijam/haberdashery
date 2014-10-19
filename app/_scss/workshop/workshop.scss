@@ -55,7 +55,12 @@
 
     &.punctual {
       background:url('/img/workshop/workshop-bkg-blue.jpg') no-repeat 0 0;
-      background-size:100% auto; 
+      background-size:100% auto;
+    }
+
+    &.renting {
+      background:url('/img/workshop/workshop-bkg-purple.jpg') no-repeat 0 0;
+      background-size:100% auto;
     }
   }
 
@@ -210,9 +215,14 @@
     text-align:center;
 
     img {
+      // Type
+      &.expanded { width:100% }
+
+      // Named
       &.patchwork { margin-top:60px }
       &.punto { margin-top:40px }
       &.canastilla { margin-top:30px }
+      &.sewing-machine { margin-top:-120px }
     }
 
     // &.workshop-align-right,
@@ -227,11 +237,10 @@
 
   @media (min-width: 0) and (max-width: 1100px) {
     .header-content.monthly,
-    .header-content.punctual {
+    .header-content.punctual,
+    .header-content.renting {
       background-size:auto 100%;
     }
-
-    
 
     .workshop-navigation-inner {
       a {
@@ -250,7 +259,10 @@
     }
 
     .workshop-type-image {
-      img { margin-top:0!important }
+      img {
+        margin-top:0!important;
+        &.sewing-machine { margin-top:-70px!important }
+      }
     }
 
     .workshop-navigation-inner {

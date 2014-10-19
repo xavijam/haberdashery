@@ -29,7 +29,6 @@
     }
 
     
-
     // Navigation
     nav {
       display:block;
@@ -58,10 +57,8 @@
 
       // - selected
       a.selected {
-
-        &:hover {
-          
-        }
+        text-decoration: underline;
+        &:hover { cursor:default }
       }
     }
 

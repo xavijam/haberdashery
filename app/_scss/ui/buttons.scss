@@ -53,11 +53,23 @@
       }
     }
 
-    &.pink {
+    &.blue {
+      color:#258AB6;
+      border-color:#258AB6;
 
+      &:hover {
+        color: #0D5A8E;
+        border-color: #0D5A8E;
+      }
     }
 
     &.purple {
+      color:#7A38BC;
+      border-color:#7A38BC;
 
+      &:hover {
+        color: #3F057A;
+        border-color: #3F057A;
+      }
     }
   }

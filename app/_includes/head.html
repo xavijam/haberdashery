@@ -7,6 +7,24 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+  <meta property="fb:app_id" content="824010084328857" />
+  <meta property="og:site_name" content="Mercería Alonso" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="business" />
+  <meta property="og:url" content="{{ site.baseurl }}{% if page.url %}{{ page.url }}{% endif %}" />
+  <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />
+  <meta property="og:locale" content="ES" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@merceriaalonso" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />
+  <meta name="twitter:url" content="{{ site.baseurl }}{% if page.url %}{{ page.url }}{% endif %}" />
+
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Cabin:400,500' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   
@@ -23,6 +41,10 @@
   <link rel="stylesheet" href="/css/workshop/calendar.css">
   <link rel="stylesheet" href="/css/workshop/workshop.css">
   <!-- endbuild -->
-  
+
+  <!-- build:js(app,.tmp) /js/main.js -->
+  <script src="/_bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

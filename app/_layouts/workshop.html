@@ -5,11 +5,11 @@
     {% include shared/_cookies.html %}
 
     <div class="header-content {{ page.type }}">
-      {% include header.html %}
+      {% include header.html type="light" %}
       <div class="workshop-title">
         <div class="workshop-title-inner">
           <h2>Taller de<br/>costura y labores</h2>
-          <p>Elige cualquiera de nuestros cursos o alquila<br/>una máquina por tu cuenta</p>
+          <p>{{ page.description }}</p>
         </div>
       </div>
       {% include workshop/navigation.html %}
@@ -17,6 +17,15 @@
     <div class="workshop-content">
       <div class="wrapper">
         {{ content }}
+
+        <section class="workshop-item workshop-item-center">
+          <div class="workshop-item-inner">
+            <h4>Calendario</h4>
+            <p>Disponemos una gran variedad de horarios tanto por la mañana como por la tarde. Consulta nuestro calendario y si no se adapta a tus necesidades <a href="/contacto">contacta</a> con nosotros e intentaremos abrir nuevos grupos.</p>
+          </div>
+          <div class="workshop-calendar">
+          </div>
+        </section>
       </div>
     </div>
 

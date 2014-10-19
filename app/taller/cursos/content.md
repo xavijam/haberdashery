@@ -1,9 +1,9 @@
 ---
 layout:       workshop
 title:        Cursos mensuales - Mercería Alonso
-description:  Elige cualquiera de nuestros cursos o alquila una máquina por tu cuenta
+description:  Elige cualquiera de nuestros cursos mensuales o alquila una máquina de coser por tu cuenta
 keywords:     >
-  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,curso ganchillo,ganchillo,corte y confección,curso corte y confección,mercería,merceria,mercería alonso,majadahonda,madrid
+  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,curso ganchillo,ganchillo,corte y confección,curso corte y confección,mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid
 type:         monthly
 permalink:    /taller/
 ---
@@ -92,15 +92,5 @@ permalink:    /taller/
         <p>Relájate con nuestras clases de ganchillo. Te enseñaremos a trabajar con muchos materiales, desde algodón, lana… hasta el trapillo que está de moda.</p>
         <p>Nos adaptamos a tu nivel, si eres principiante empezarás desde los puntos básicos e iras poco a poco avanzando. Si ya tienes conocimiento te enseñaran trucos nuevos o descifrarás los patrones más complicados de las revistas.</p>
       </div>
-    </div>
-  </section>
-
-  
-  <section class="workshop-item workshop-item-center">
-    <div class="workshop-item-inner">
-      <h4>Calendario</h4>
-      <p>Disponemos una gran variedad de horarios tanto por la mañana como por la tarde. Consulta nuestro calendario y si no se adapta a tus necesidades <a href="/contacto">contacta</a> con nosotros e intentaremos abrir nuevos grupos.</p>
-    </div>
-    <div class="workshop-calendar">
     </div>
   </section>

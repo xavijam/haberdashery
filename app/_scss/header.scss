@@ -11,6 +11,8 @@
   @import "ui/vars";
 
 
+  // Default header
+
   header {
     display:block;
 
@@ -27,14 +29,14 @@
       height:60px;
       padding:2px 0 0 72px;
       margin-top:18px;
-      background:url('/img/logo_white.png') no-repeat 0 0;
+      background:url('/img/logo.png') no-repeat 0 0;
       background-size:60px 60px;
       
       a {
         font-family: 'Montserrat', Arial;
         font-size:25px;
         font-weight:400;
-        color:white;
+        color:#878787;
         text-decoration:none;
       }
     }
@@ -46,7 +48,7 @@
       
       i {
         font-size:30px;
-        color:white;
+        color:#878787;
       }
     }
 
@@ -65,12 +67,12 @@
         font-family: 'Cabin',Arial;
         font-size:14px;
         font-weight: 400;
-        color:white;
+        color:#878787;
         text-transform: uppercase;
         text-decoration: none;
         border-top:2px solid transparent;
 
-        &:hover { border-color: white }
+        &:hover { border-color: #878787 }
       }
 
       // States
@@ -87,12 +89,44 @@
 
       // - selected
       a.selected {
-        border-color: white;
+        border-color: #878787;
 
         &:hover { cursor:default }
       }
     }
 
+  }
+
+
+  // Light header
+  header.light {
+    .logo {
+      background:url('/img/logo_white.png') no-repeat 0 0;
+      a { color:white }
+    }
+
+    .header-comp-nav {
+      i {
+        font-size:30px;
+        color:white;
+      }
+    }
+
+    nav {
+      a {
+        color:white;
+        &:hover { border-color: white }
+      }
+
+      // States
+
+      // - selected
+      a.selected {
+        border-color: white;
+
+        &:hover { cursor:default }
+      }
+    }
   }
 
 
@@ -106,10 +140,14 @@
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) {
     header .logo {
-      background:url('/img/logo_white@2x.png') no-repeat 0 0;
+      background:url('/img/logo@2x.png') no-repeat 0 0;
       background-size:60px 60px;
     }
 
+    header.light .logo {
+      background:url('/img/logo_white@2x.png') no-repeat 0 0;
+      background-size:60px 60px;
+    }
   }
 
   @media (min-width: 0) and (max-width: 720px) {

@@ -1,56 +1,83 @@
 
-$(document).ready(function() {
+  /**
+   *  Workshop javascript
+   *
+   */
 
-   var $calendar = $('#calendar');
-   var id = 10;
+  $(function(){
 
-   $calendar.weekCalendar({
-    timeFormat : "h:i",
-    date: new Date(),
-    dateFormat : "",
-    timeslotsPerHour : 3,
-    allowCalEventOverlap : true,
-    overlapEventsSeparate: true,
-    firstDayOfWeek : 1,
-    businessHours :{start: 10, end: 20, limitDisplay: true },
-    daysToShow : 6,
-    use24Hour : true,
-    useShortDayNames: true,
-    timeSeparator: " - ",
-    buttons: false,
-    height : function($calendar) {
-      return $(window).height()
-    },
-    eventRender : function() {},
-    draggable : function() {},
-    resizable : function(calEvent, $event) {
-      return calEvent.readOnly != true;
-    },
-    eventNew : function() {},
-    eventDrop : function() {},
-    eventResize : function() {},
-    eventClick : function() {},
-    eventMouseover : function(calEvent, $event) {},
-    eventMouseout : function(calEvent, $event) {},
-    noEvents : function() {},
-    data : function(start, end, callback) {
-       callback(getEventData());
-    },
-    readonly: true,
-    shortDays : ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],
-    longDays : ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
-   });
+    var WorkShop = Backbone.View.extend({
 
-   function getEventData() {
-      var events = _.clone(classes);
+      events: {
+        "click a[href*=#]:not([href=#])": "_scrollTo",
+        "click .header-comp-nav": "_changeActive",
+        "click": "_removeActive"
+      },
 
-      return _.map(events.classes, function(item, i){
-        item.id = i;
-        item.start = new Date(moment().day(item.day).hour(item.hourStart).minute(item.minStart).second(0).format());
-        item.end = new Date(moment().day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0).format());
-        item.color = events.types[ item.title ];
-        return item
-      });
-   }
+      initialize: function(obj) {
+        this.options = obj;
+        this.model = new Backbone.Model({ active: false });
+        this._initViews();
+        this._initBinds();
+      },
 
-});
+      _initViews: function() {
+        var calendar = new WorkshopCalendar({
+          el:     this.$('.workshop-calendar'),
+          events: this.options.classes,
+          type:   this.options.type
+        });
+
+        this.$('#calendar').append(calendar.render().el);
+      },
+
+      _initBinds: function() {
+        this.model.bind('change:active', this._onActiveChange, this);
+      },
+
+      _onActiveChange: function(e) {
+        var active = this.model.get('active');
+        this.$el[active ? 'addClass' : 'removeClass' ]('active')
+      },
+
+      _changeActive: function(e) {
+        if (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+        this.model.set('active', !this.model.get('active'));
+      },
+
+      _removeActive: function() {
+        this.model.set('active', false);
+      },
+
+      _scrollTo: function(e) {
+        var hash = $(e.target).attr('href');
+        
+        if (hash && hash.search('#/') === -1) {
+          if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+
+          var target = $(hash);
+          target = target.length ? target : this.$('[name=' + hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      }
+
+    });
+
+    window.workshop = new WorkShop({
+      el:       document.body,
+      classes:  window.classes,
+      type:     window.type
+    });
+
+  });

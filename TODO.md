@@ -11,15 +11,18 @@
 - [ ] Finish responsive version
 - [ ] Location page
 - [ ] Contact page (or block)
-- [ ] Complete feed.xml
-- [ ] Footer block
+- [ ] Complete sitemap.xml
+- [x] Footer block
 - [ ] Favicon
 - [ ] Complete head metatags
-- [ ] Create key thumbnail
-- [ ] Facebook group
-- [ ] Twitter account
 - [ ] Twitter card
+- [ ] Create key thumbnail
+- [x] Facebook page
+- [x] Twitter account
 - [ ] Products
+- [ ] IE rendering libs (Modernizr)
+- [x] Google Analytics
+- [ ] Cookies stuff
 
 
 ## 2nd version (November)

@@ -4,8 +4,7 @@
     "Corte y confección": "#ADF3E8",
     "Ganchillo":          "#FFCCCB",
     "Patchwork":          "#F4E6A3"
-  },
-  
+  },  
   "classes": [
     {
       "type":       "monthly",
@@ -59,8 +58,18 @@
 
     {
       "type":       "monthly",
-      "title":      "Corte y confección",
+      "title":      "Punto",
       "day":        "wednesday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "thursday",
       "hourStart":  "10",
       "minStart":   "0",
       "hourEnd":    "12",
@@ -75,27 +84,6 @@
       "minStart":   "0",
       "hourEnd":    "20",
       "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Corte y confección",
-      "day":        "saturday",
-      "hourStart":  "10",
-      "minStart":   "0",
-      "hourEnd":    "12",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Corte y confección",
-      "day":        "saturday",
-      "hourStart":  "12",
-      "minStart":   "0",
-      "hourEnd":    "14",
-      "minEnd":     "0"
     }
   ]
-
 }

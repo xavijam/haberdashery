@@ -47,9 +47,15 @@
 
   // Workshop 'header'
   .header-content {
+
     &.monthly {
       background:url('/img/workshop/workshop-bkg-green.jpg') no-repeat 0 0;
       background-size:100% auto;
+    }
+
+    &.punctual {
+      background:url('/img/workshop/workshop-bkg-blue.jpg') no-repeat 0 0;
+      background-size:100% auto; 
     }
   }
 
@@ -111,7 +117,7 @@
     }
 
     h2 {
-      font-size:32px;
+      font-size:34px;
       color:white;
       text-transform: uppercase;
     }
@@ -127,6 +133,32 @@
 
   }
 
+  // Workshop highlights
+  .workshop-highlights {
+    display:block;
+    margin:50px 0;
+
+    li {
+      @include inline-block();
+      width:120px;
+      padding:0 15px;
+      border-left:1px solid #DEDEDE;
+
+      &:first-child { border:none }
+
+      h4 {
+        font-size:50px;
+        letter-spacing:-3px;
+      }
+
+      p { margin-top:8px }
+
+      small {
+        font-size:20px;
+      }
+    }
+  }
+
 
   // Workshop items
 
@@ -136,6 +168,8 @@
     width:100%;
     padding:100px 0;
     overflow:auto;
+
+    p { margin-top:20px }
   }
 
   .workshop-item-odd {
@@ -151,7 +185,7 @@
     position:relative;
     display:block;
     width:100%;
-    padding:150px 0;
+    padding:100px 0;
     overflow:auto;
 
     .workshop-item-inner {
@@ -175,7 +209,11 @@
   .workshop-type-image {
     text-align:center;
 
-    img {}
+    img {
+      &.patchwork { margin-top:60px }
+      &.punto { margin-top:40px }
+      &.canastilla { margin-top:30px }
+    }
 
     // &.workshop-align-right,
     // &.workshop-align-left { float:none }
@@ -183,60 +221,85 @@
     &.workshop-align-left img { left:15% }
     &.workshop-align-right img { right:15% }
   }
-  
 
-  // Calendar
-  
-  .btn.calendar { margin-top:20px }
 
-  #calendar {
-    margin-top:100px;
+  // Hello media queries
 
-    .wc-header td {
-      padding:5px 0;
-      background:#333;
-      font-size:14px;
-      font-weight:normal;
-      color:white;
+  @media (min-width: 0) and (max-width: 1100px) {
+    .header-content.monthly,
+    .header-content.punctual {
+      background-size:auto 100%;
     }
 
-    .wc-day-column {
-      border-color:white;
-      background:#F7F7F7;
-    }
+    
 
-    .wc-time-slot { border-color:white }
-    .wc-hour-end { border-color:white }
-    // .wc-header .wc-day-column-header { padding: 0.6em }
-    .wc-grid-timeslot-header { background: #EFEFEF }
-
-    .wc-cal-event { @include border-radius(3px) }
-
-    .wc-cal-event .wc-time {
-      background:none;
-      border:none;
-    }
-
-    .wc-cal-event div { padding:0 10px }
-
-    .wc-title {
-      font:normal 14px 'Cabin',Arial;
-      color:rgba(black,.8);
-      text-align:left;
-    }
-
-    .wc-time {
-      margin:5px 0;
-      font:bold 11px 'Montserrat',Arial;
-      color:rgba(black,.4);
-      text-align:left;
-    }
-
-    .wc-business-hours {
-      font:normal 13px Arial;
-      color:#888888;
-      border-color:white
+    .workshop-navigation-inner {
+      a {
+        padding:0 20px;
+        font-size:15px;
+      }
     }
   }
 
+  @media only screen and (max-width: 568px) {
+    .workshop-title {
+      padding:100px 0;
 
+      h2 { font-size:28px }
+      p { font-size:16px }
+    }
+
+    .workshop-type-image {
+      img { margin-top:0!important }
+    }
+
+    .workshop-navigation-inner {
+      a {
+        padding:0 18px 0 15px;
+        font-size:13px;
+      }
+    }
+
+    .workshop-highlights {
+      margin:40px 0;
+      li { width:90px; padding:0 6px; }
+      p { font-size:13px; line-height:18px; }
+      h4 { font-size:35px!important; letter-spacing:-1px!important }
+    }
+
+    .workshop-item, .workshop-item-center {
+      padding:60px 0;
+    }
+
+    .workshop-align-right,
+    .workshop-align-left {
+      float:left;
+      width:100%;
+    }
+
+    .workshop-type-content { margin-top:20px }
+
+    .workshop-item-inner {
+      padding-left:20px;
+      padding-right:20px;
+    }
+  }
+
+  @media (min-width: 0) and (max-width: 567px) {
+
+    .workshop-highlights {
+      margin:40px 0;
+      li { width:78px; padding:0 6px; }
+      p { font-size:13px; line-height:18px; }
+      h4 { font-size:35px!important; letter-spacing:-1px!important }
+    }
+
+    .workshop-navigation-inner {
+      a {
+        display:block;
+        padding:0;
+        border-bottom:1px solid rgba(black, 0.3);
+
+      }
+    }
+  }

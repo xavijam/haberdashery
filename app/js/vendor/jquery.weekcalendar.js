@@ -977,6 +977,7 @@
          var $target = this.element.find(".wc-grid-timeslot-header .wc-hour-header:eq(" + slot + ")");
 
          $scrollable.animate({scrollTop: 0}, 0, function() {
+            if ($target.length === 0) return;
             var targetOffset = $target.offset().top;
             var scroll = targetOffset - $scrollable.offset().top - $target.outerHeight();
             $scrollable.animate({scrollTop: scroll}, options.scrollToHourMillis);

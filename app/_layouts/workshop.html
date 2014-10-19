@@ -2,6 +2,8 @@
 <html>
   {% include head.html %}
   <body>
+    {% include shared/_cookies.html %}
+
     <div class="header-content {{ page.type }}">
       {% include header.html %}
       <div class="workshop-title">
@@ -17,6 +19,23 @@
         {{ content }}
       </div>
     </div>
+
     {% include footer.html %}
+
+    <script>
+      var classes = {{ site.data.workshop | jsonify }};
+      var type = '{{ page.type }}';
+    </script>
+    <!-- build:js(app) /js/workshop.js -->
+    <script src="/_bower_components/jquery/jquery.js"></script>
+    <script src="/js/vendor/jquery-ui-1.7.2.js"></script>
+    <script src="/_bower_components/underscore/underscore.js"></script>
+    <script src="/_bower_components/backbone/backbone.js"></script>
+    <script src="/_bower_components/moment/moment.js"></script>
+    <script src="/js/vendor/jquery.weekcalendar.js"></script>
+    <script src="/js/workshop/calendar.js"></script>
+    <script src="/js/workshop/workshop.js"></script>
+    <!-- endbuild -->
+    {% include shared/_ganalytics.html %}
   </body>
 </html>

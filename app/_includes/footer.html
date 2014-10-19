@@ -1,7 +1,19 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-    
+<footer>
+  <div class="inner">
+    <h1 class="logo"><a href="{{ site.baseurl }}/"></a></h1>
+    <nav>
+      <a href="/taller/" class="{% if page.url == '/taller/' %} selected {% endif %}">taller</a>
+      <a class="disabled {% if page.url == '/productos/' %} selected {% endif %}">productos</a>
+      <a href="/localizacion/" class="{% if page.url == '/localizacion/' %} selected {% endif %}">localización</a>
+      <a href="/contacto/" class="{% if page.url == '/contacto/' %} selected {% endif %}">contacto</a>
+    </nav>
+    <div class="social">
+      <a href="http://facebook.com/merceriaalonso"><i class="fa fa-facebook"></i></a>
+      <a href="http://twitter.com/merceriaalonso"><i class="fa fa-twitter"></i></a>
+      <a href="mailto:info@merceriaalonso.com"><i class="fa fa-send"></i></a>
+    </div>
+    <div class="rights">
+      ® {{ site.time | date: '%Y' }} Mercería Alonso
+    </div>
   </div>
-
 </footer>

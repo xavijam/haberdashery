@@ -3,14 +3,18 @@
 # 2. config.build.yml
 # 3. config.yml
 
+gems:
+  - jekyll-sitemap
+
 name: haberdashery
 title: Mercería Alonso
 description: >
   Mercería Alonso, desde 1984 ayudándote a conseguir tu estilo
 keywords: >
-  clases,cursos mensuales,cursos,patchwork,punto,ganchillo,
-  corte y confección,mercería,merceria,mercería alonso,majadahonda,
-  madrid
+  mercería,merceria,mercería alonso,mercería majadahonda,mercería madrid,
+  clases mercería,cursos mensuales,cursos,patchwork,punto,ganchillo,
+  corte y confección
+thumbnail: '/img/thumbnail.jpg'
 author:
   name: xavijam
   email: xavijam@gmail.com

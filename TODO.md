@@ -3,25 +3,25 @@
 ## 1st version  (October)
 
 - [x] Calendar
-- [ ] 404 page
+- [x] 404 page
 - [ ] Home
-- [x] Punctual classes
-- [ ] Texts
-- [x] Sewing machine renting
-- [x] Finish responsive version
 - [ ] Location page
 - [ ] Contact page (or block)
-- [ ] Complete sitemap.xml
+- [ ] Cookies stuff
+- [ ] Texts
+- [x] Punctual classes
+- [x] Sewing machine renting
+- [x] Finish responsive version
+- [x] Complete sitemap.xml
 - [x] Footer block
 - [x] Favicon
 - [x] Complete head metatags
 - [x] Twitter card
-- [ ] Create key thumbnail
+- [x] Create key thumbnail
 - [x] Facebook page
 - [x] Twitter account
 - [x] IE rendering libs (Modernizr)
 - [x] Google Analytics
-- [ ] Cookies stuff
 
 
 ## 2nd version (November)

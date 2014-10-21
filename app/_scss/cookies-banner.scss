@@ -1,0 +1,29 @@
+
+  /**
+   *  Styles for cookie banner
+   *
+   */
+
+  .cookie-banner {
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    display:block;
+    padding:10px 20px 10px 40px;
+    background:#FEFEB2;
+    text-align:center;
+    z-index:10000;
+
+    h6 { font-size:15px; color:#373726 }
+    p { color:#7F7F59 }
+
+    i {
+      position:absolute;
+      left:10px;
+      top:50%;
+      margin-top:-8px;
+      color:rgba(black,0.5);
+      font-size:15px;
+    }
+  }

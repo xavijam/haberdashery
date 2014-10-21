@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"_",
+				"_LEGEND_ITEM_TEMPLATE"
+			],
+			[
 				"_on",
 				"_onGeometryChange"
 			],
 			[
 				"avai",
 				"available_geometries"
-			],
-			[
-				"text-",
-				"text-decoration"
 			],
 			[
 				"loc",
@@ -38,10 +42,6 @@
 			[
 				"geoco",
 				"geocodingReported"
-			],
-			[
-				"_",
-				"_isGeocodingReported"
 			],
 			[
 				"har",
@@ -520,66 +520,74 @@
 	"buffers":
 	[
 		{
-			"file": "_scss/main.scss",
+			"file": "TODO.md",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 674,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_scss/vendor/normalize.scss",
+			"file": "app/_scss/header.scss",
 			"settings":
 			{
-				"buffer_size": 7782,
+				"buffer_size": 3442,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_scss/vendor/reset.scss",
+			"file": "app/_scss/footer.scss",
 			"settings":
 			{
-				"buffer_size": 1106,
+				"buffer_size": 1993,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_scss/config/buttons.scss",
+			"file": "app/_scss/ui/buttons.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1297,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/head.html",
+			"file": "app/_layouts/workshop.html",
 			"settings":
 			{
-				"buffer_size": 997,
+				"buffer_size": 1801,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_scss/workshop.scss",
+			"file": "app/_scss/workshop/workshop.scss",
 			"settings":
 			{
-				"buffer_size": 627,
+				"buffer_size": 5697,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "taller/cursos/content.md",
+			"file": "app/_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 4586,
+				"buffer_size": 2929,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/workshop/navigation.html",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 410,
+				"buffer_size": 9073,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 689,
 				"line_ending": "Unix"
 			}
 		}
@@ -648,13 +656,129 @@
 	"expanded_folders":
 	[
 		"/Users/xavijam/Workspace/xavijam/haberdashery",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_plugins",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/config",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor"
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/modernizr"
 	],
 	"file_history":
 	[
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-usemin/node_modules/lodash/vendor/tar/lib/header.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/Gemfile",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/js/workshop/workshop.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/modernizr/feature-detects/workers-dataworkers.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/dist/js/workshop.150d.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/modernizr/feature-detects/workers-sharedworkers.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/taller/cursos/content.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_includes/footer.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_layouts/workshop.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/main.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/js/workshop/calendar.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_includes/header.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt/node_modules/.bin/which",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/node_modules/svgo/plugins/transformsWithOnePath.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/taller/clases/content.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/footer.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/taller/alquiler-maquinas-coser/content.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/workshop/calendar.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/node_modules/svgo/plugins/cleanupAttrs.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_data/workshop.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/header.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/doc/time.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/uglify-to-browserify/.npmignore",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler/test/cases/21-conditional_comments.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-csslint/node_modules/csslint/lib/csslint-node.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/conditionals.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_includes/shared/_cookies.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/cookieSession.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-concat/docs/concat-options.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/vendor/jquery.weekcalendar.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/ui/buttons.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/bower.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/block-stream/test/nopad-thorough.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-watch/node_modules/gaze/test/fixtures/one.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-clean/docs/overview.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/js/vendor/jquery.weekcalendar.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/js/body.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/vendor/jquery.weekcalendar.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/jquery/jquery.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/jquery/test/data/headers.php",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/workshop/workshop.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/backbone/backbone.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/basicAuth.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/workshop/calendar.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/workshop/workshop.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/header.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/workshop.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/ui/default.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_scss/workshop.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/js/workshop/calendar_legends.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_includes/head.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/moment/min/locales.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/jquery/src/callbacks.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/node_modules/svgo/lib/svgo/coa.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/node_modules/svgo/plugins/convertStyleToAttrs.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-watch/docs/watch-examples.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-watch/docs/watch-options.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/ui/default.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_layouts/default.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/object/deepEquals.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.tmp/css/main.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt/CONTRIBUTING.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_config.yml",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-build-control/test/expected/custom_options",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.jekyll/taller/index.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-compass/node_modules/tmp/test-all.sh",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_includes/shared/_ganalytics.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/normalize-css/normalize.css",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/object/forOwn.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-firefox-3.6.http",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt/node_modules/findup-sync/test/fixtures/a/foo.txt",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/open.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.jekyll/feed.xml",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-htmlmin/docs/htmlmin-examples.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/haberdashery.sublime-project",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/backbone/bower.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/moment/bower.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/normalize-css/bower.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/time-grunt/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/load-grunt-tasks/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/jshint-stylish/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-usemin/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-svgmin/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-jekyll/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-filerev/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-watch/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-uglify/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-jshint/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-imagemin/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-htmlmin/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-cssmin/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-csslint/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-copy/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-connect/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-concat/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-compass/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-contrib-clean/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-concurrent/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-build-control/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt-autoprefixer/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/node_modules/grunt/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/package.json",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.jshintrc",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/.bowerrc",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/moment/locale/ar-sa.js",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/app/_bower_components/jquery/ChangeLog.txt",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_includes/workshop/navigation.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/taller/cursos/content.md",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_includes/head.html",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/config/buttons.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/reset.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/normalize.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/main.scss",
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/workshop.scss",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/grids-responsive.scss",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_layouts/workshop.html",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/grids.scss",
@@ -662,127 +786,8 @@
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/grids-responsive-old-ie.scss",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_plugins/image_tag.rb",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/index.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_config.yml",
 		"/Users/xavijam/Workspace/xavijam/haberdashery/_data/compass.yml",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/reset.scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/grid.scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_compass/main.scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_compass/test.scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/CNAME",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_data/config.rb",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_site/config.rb",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_includes/header.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_includes/footer.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_includes/head.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_layouts/default.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_compass/config.rb",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_layouts/compress.html",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/js/vendor/underscore.js",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/js/vendor/backbone.js",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_sass/main.scss",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/config.rb",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/.rvmrc",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_compass",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/haberdashery.sublime-project",
-		"/Users/xavijam/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/.gitignore",
-		"/Users/xavijam/Workspace/xavijam/haberdashery/_site/haberdashery.sublime-project",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/user.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/.sass-cache/7844b86115df061cd4e74636fe874b46724f624e/metadata_dialog.scssc",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/Makefile",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/dashboard/visualizations/visualization_item.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/dashboard/views/visualization_list_item.jst.ejs",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/test/spec/cartodb/models/vis.spec.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/spec/requests/admin/visualizations_spec.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/visualization.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/tasks/tables.rake",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/spec/models/table_spec.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/table.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/visualization/table_blender.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/node_modules/aws-sdk/scripts/translate-api",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/TESTING",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/test/spec/cartodb/dashboard/dashboard_user_stats.spec.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/test/spec/cartodb/dashboard/dashboard_paginator.spec.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/test/spec/cartodb/dashboard/dashboard.spec.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/dashboard/dashboard.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/spec/requests/dashboard_spec.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/script/drop_all.sql",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/config/database.yml",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/dashboard/views/visualizations.jst.ejs",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/visualization/vizjson.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/db/fake_data/cp_vizzuality_export.csv",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common/utils.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/services/relocator/relocator/utils.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/views/user_mailer/unshare_table.html.erb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/.sass-cache/60ad4dcf82cb253d195ad5f908ff392728c91be7/table_item.scssc",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/dashboard/tables/table_item.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/tmp/table/metadata_dialog.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/table/metadata_dialog.css.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/metadata_dialog.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/panes/geocoding_dialog_pane_default_geocoder.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/panes/geocoding_dialog_styles.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/test/spec/cartodb/table/geocoding_dialog.spec.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/views/geocoding_dialog/geocoding_dialog_styles.jst.ejs",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/table/geocoding_dialog/geocoding_dialog_pane.css.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_dialog.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_dialog_content.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_dialog_available_geometries_model.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_result.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/models/geocodings.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/Gemfile",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/elements/custom_objects.css.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/visualization/member.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/vendor/assets/javascripts/markdown.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/tasks/relocator/meta_dumper.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/cartodb/metrics.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/sql/test/CDB_MathTest_expect",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/markdown_render.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common/views/dialog_markdown_edit.jst.ejs",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/header/share_dialog.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/.sass-cache/9e2b4d484ada42e22df472e7c4305ad068e10af0/share_dialog.scssc",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/views/user_mailer/share_table.html.erb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/spec/spec_helper.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/db/schema.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/controllers/api/json/geocodings_controller.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/config.ru",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/sql/scripts-available/CDB_Organizations.sql",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common/forms/text_custom_combo.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/panes/geocoding_dialog_pane.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cdb/src/ui/common/tabpane.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cdb/dist/cartodb.full.uncompressed.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common/forms/widgets.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/node_modules/shelljs/src/toEnd.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/config/initializers/warden.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common/visualizations_combo.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/common_data/common_data_models.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/public/assets/2.15.4/stylesheets/elements/custom_text_combo.css",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/tmp/elements/custom_text_combo.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/elements/custom_text_combo.css.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/script/create_dev_user",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/.sass-cache/3302fb13cc5c95cf721e17713068a458f65267f3/geocoding_dialog_pane_address.scssc",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_available_geometries_model.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_dialog_model.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table/geocoding_message_dialog.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/elements/default_jscrollpane.css.scss",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/.sass-cache/5c9d43b9b69b149ead67b19d13302f1b351a35f8/dialog_small_edit.scssc",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/log/geocodings.log",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/build/package.json",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/config/frontend.yml",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/vendor/assets/javascripts/cartodb.uncompressed.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/cartodb.sublime-project",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/lib/assets/javascripts/cartodb/table_public/CartoDBTableMetadata_public.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/client_application.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/public/assets/2.15.4/stylesheets/table/geocoding_dialog/geocoding_dialog_pane_address.css",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/public/assets/2.14.01/stylesheets/all_css.css",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/public/assets/2.14.01/javascripts/keys.js",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/helpers/application_helper.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/views/admin/pages/datasets.html.erb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/models/shared_entity.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/views/shared/_analytics.html.erb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/services/datasources/lib/datasources.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/views/admin/visualizations/embed_map.html.erb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/config/environment.rb",
-		"/Users/xavijam/Workspace/cartodb/cartodb20/app/assets/stylesheets/common_data/common_data.css.scss"
+		"/Users/xavijam/Workspace/xavijam/haberdashery/_scss/vendor/grid.scss"
 	],
 	"find":
 	{
@@ -793,6 +798,8 @@
 		"height": 125.0,
 		"where_history":
 		[
+			"",
+			"*.scss",
 			"",
 			"*.rb",
 			"",
@@ -918,9 +925,7 @@
 			"",
 			"*.js",
 			"*.ejs",
-			"*.js",
-			"*.css.scss",
-			"*.rb"
+			"*.js"
 		]
 	},
 	"find_state":
@@ -928,6 +933,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stageCss",
+			"serve",
+			"dist",
+			"ico",
+			"favicon",
+			"{{ site",
+			"punc",
+			"img ",
+			"wc-scrollable-grid",
+			"mon",
+			"_onActiveChange",
+			"_changeActive",
+			"scrollable",
+			".header-comp-nav",
+			"workshop-type-image",
+			".workshop-title",
+			"header-conten",
+			"header",
+			"-green",
+			".workshop-highlights",
+			"workshop-highlights",
+			"workshop-item",
+			"wc-scrollable-grid",
+			"calendario",
+			"id",
+			"workshop.js",
+			"first",
 			"pure-u-s",
 			"svg",
 			"_getFormData",
@@ -1028,34 +1060,7 @@
 			"tables.",
 			"locked tables",
 			"router",
-			"are locked tables",
-			"locked tables",
-			"there are locked tables",
-			"_selectVideo",
-			"this.template = ",
-			"template",
-			"start_tables",
-			"this.items",
-			"_checkLockTables",
-			"_onDataFetched",
-			"locked_vis_clone",
-			"cdb.admin.WelcomeView",
-			"video",
-			"start_tables",
-			"_start_tables",
-			"Or just drop your data here to start your import",
-			"_checkLockTables",
-			"_destroyTipsys",
-			"createtipsys",
-			"data-tip",
-			"_createTipsys",
-			"destroytip",
-			"_navigateTo: function(page) {",
-			"_navigateTo",
-			"goToPage'",
-			"_pageChange",
-			"tipsy",
-			"tooltip"
+			"are locked tables"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1077,29 +1082,209 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_scss/main.scss",
+					"file": "TODO.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								83
+								274,
+								274
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/_scss/header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/_scss/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/_scss/ui/buttons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 698.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/_layouts/workshop.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1187,
+								1741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/_scss/workshop/workshop.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3943,
+								3943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1109,197 +1294,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "_scss/vendor/normalize.scss",
+					"buffer": 7,
+					"file": "Gruntfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7782,
+						"buffer_size": 9073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7278,
-								7278
+								6371,
+								6379
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7536.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_scss/vendor/reset.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1106,
-								1106
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 158.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_scss/config/buttons.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_includes/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 997,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								418,
-								418
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4909.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "_scss/workshop.scss",
+					"buffer": 8,
+					"file": "app/_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 627,
+						"buffer_size": 689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
+								360,
+								360
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 96.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "taller/cursos/content.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1415,
-								1415
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 43.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_includes/workshop/navigation.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1358,16 +1403,152 @@
 		"selected_items":
 		[
 			[
+				"header.scs",
+				"app/_scss/header.scss"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"head.html",
+				"app/_includes/head.html"
+			],
+			[
+				"workshop.html",
+				"app/_layouts/workshop.html"
+			],
+			[
+				"head",
+				"app/_includes/head.html"
+			],
+			[
+				"headerhtml",
+				"app/_includes/header.html"
+			],
+			[
+				"header.j",
+				"node_modules/grunt-usemin/node_modules/lodash/vendor/tar/lib/header.js"
+			],
+			[
+				"workshop.h",
+				"app/_layouts/workshop.html"
+			],
+			[
+				"workshop",
+				"app/js/workshop/workshop.js"
+			],
+			[
+				"content.md",
+				"app/taller/cursos/content.md"
+			],
+			[
+				"footer",
+				"app/_scss/footer.scss"
+			],
+			[
+				"footerhtml",
+				"app/_includes/footer.html"
+			],
+			[
+				"header.scss",
+				"app/_scss/header.scss"
+			],
+			[
+				"calendar.js",
+				"app/js/workshop/calendar.js"
+			],
+			[
+				"workshop.js",
+				"app/js/workshop/workshop.js"
+			],
+			[
+				"cooki",
+				"app/_includes/shared/_cookies.html"
+			],
+			[
+				"buttons",
+				"app/_scss/ui/buttons.scss"
+			],
+			[
+				"ontent.md",
+				"app/taller/cursos/content.md"
+			],
+			[
+				"jqueryweek",
+				"app/js/vendor/jquery.weekcalendar.js"
+			],
+			[
+				"headerscss",
+				"app/_scss/header.scss"
+			],
+			[
+				"header",
+				"app/_scss/header.scss"
+			],
+			[
+				"workshopscs",
+				"app/_scss/workshop/workshop.scss"
+			],
+			[
+				"workshop.json",
+				"app/_data/workshop.json"
+			],
+			[
+				"bower.j",
+				"bower.json"
+			],
+			[
+				"content",
+				"app/taller/cursos/content.md"
+			],
+			[
+				"weekcalen",
+				"app/js/vendor/jquery.weekcalendar.js"
+			],
+			[
+				"weekca",
+				".tmp/css/vendor/jquery.weekcalendar.css"
+			],
+			[
+				"default",
+				"app/_scss/ui/default.scss"
+			],
+			[
+				"main",
+				"app/_scss/main.scss"
+			],
+			[
+				"workshopcss",
+				"app/_scss/workshop.scss"
+			],
+			[
+				"header.html",
+				"app/_includes/header.html"
+			],
+			[
+				"headercss",
+				"app/_scss/header.scss"
+			],
+			[
+				"he",
+				"app/_includes/head.html"
+			],
+			[
+				"todo",
+				"TODO.md"
+			],
+			[
+				".json",
+				"app/_data/workshop.json"
+			],
+			[
 				"grid",
 				"_scss/vendor/grids-responsive.scss"
 			],
 			[
 				"gridscss",
 				"_scss/vendor/grids-responsive.scss"
-			],
-			[
-				"head",
-				"_includes/head.html"
 			],
 			[
 				"imageta",
@@ -1732,142 +1913,6 @@
 			[
 				"geocodingmessage",
 				"lib/assets/javascripts/cartodb/table/geocoding_message_dialog.js"
-			],
-			[
-				"geocodingaddress",
-				"lib/assets/javascripts/cartodb/table/geocoding_dialog/panes/geocoding_dialog_pane_address.js"
-			],
-			[
-				"geocoding_dialog.js",
-				"lib/assets/javascripts/cartodb/table/geocoding_dialog/geocoding_dialog.js"
-			],
-			[
-				"geocodingdialogspec.js",
-				"lib/assets/test/spec/cartodb/table/geocoding_dialog.spec.js"
-			],
-			[
-				"options_m",
-				"lib/assets/javascripts/cartodb/table/header/options_menu.js"
-			],
-			[
-				"cartodb.js",
-				"src/cartodb.js"
-			],
-			[
-				"packe",
-				"package.json"
-			],
-			[
-				"jscr",
-				"vendor/jscrollpane.js"
-			],
-			[
-				"infowindow.js",
-				"src/geo/ui/infowindow.js"
-			],
-			[
-				"new-info",
-				"examples/new-infowindow.html"
-			],
-			[
-				"news",
-				"NEWS"
-			],
-			[
-				"infowindowdefault",
-				"themes/css/infowindow/cartodb-infowindow-default.css"
-			],
-			[
-				"backgroundview.",
-				"lib/assets/test/spec/cartodb/table/backgroundview.spec.js"
-			],
-			[
-				"backgor",
-				"lib/assets/javascripts/cartodb/table/backgroundview.js"
-			],
-			[
-				"createdialog.js",
-				"lib/assets/javascripts/cartodb/common/create_dialog/create_dialog_actions.js"
-			],
-			[
-				"createdialoguploader.js",
-				"lib/assets/javascripts/cartodb/common/create_dialog/create_dialog_uploader.js"
-			],
-			[
-				"actions.js",
-				"lib/assets/javascripts/cartodb/common/create_dialog/create_dialog_actions.js"
-			],
-			[
-				"geocodingmessageejs",
-				"lib/assets/javascripts/cartodb/table/views/geocoding_message_dialog_content.jst.ejs"
-			],
-			[
-				"georeferenceejs",
-				"lib/assets/javascripts/cartodb/common/views/georeference_message.jst.ejs"
-			],
-			[
-				"geocoding_message",
-				"lib/assets/javascripts/cartodb/table/geocoding_message_dialog.js"
-			],
-			[
-				"georeference_content_dialog",
-				"lib/assets/javascripts/cartodb/common/views/georeference_content_dialog.jst.ejs"
-			],
-			[
-				"georeference_mess",
-				"lib/assets/javascripts/cartodb/common/views/georeference_message.jst.ejs"
-			],
-			[
-				"options",
-				"lib/assets/javascripts/cartodb/table/header/options_menu.js"
-			],
-			[
-				"georeference_dialo",
-				"app/assets/stylesheets/table/geocoding_dialog/georeference_dialog.css.scss"
-			],
-			[
-				"table.js",
-				"lib/assets/javascripts/cartodb/table/table.js"
-			],
-			[
-				"geocodingspec",
-				"lib/assets/test/spec/cartodb/models/geocodings.spec.js"
-			],
-			[
-				"geocoder.js",
-				"lib/assets/javascripts/cartodb/table/background_geocoder.js"
-			],
-			[
-				"_vishe",
-				"app/views/admin/shared/_vis_header.html.erb"
-			],
-			[
-				"_header",
-				"app/views/admin/shared/_header.html.erb"
-			],
-			[
-				"postalejs",
-				"lib/assets/javascripts/cartodb/table/views/geocoding_dialog/geocoding_dialog_pane_postal.jst.ejs"
-			],
-			[
-				"geocodingipejs",
-				"lib/assets/javascripts/cartodb/table/views/geocoding_dialog/geocoding_dialog_pane_ip.jst.ejs"
-			],
-			[
-				"ipaddressejs",
-				"lib/assets/javascripts/cartodb/table/views/geocoding_dialog/geocoding_dialog_pane_address.jst.ejs"
-			],
-			[
-				"address.ejs",
-				"lib/assets/javascripts/cartodb/table/views/geocoding_dialog/geocoding_dialog_pane_address.jst.ejs"
-			],
-			[
-				"select2",
-				"vendor/assets/javascripts/select2.min.js"
-			],
-			[
-				"widget",
-				"lib/assets/javascripts/cartodb/common/forms/widgets.js"
 			]
 		],
 		"width": 0.0

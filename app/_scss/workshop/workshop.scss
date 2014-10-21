@@ -119,6 +119,7 @@
     .workshop-title-inner {
       max-width:500px;
       margin:0 auto;
+      padding:0 20px;
     }
 
     h2 {
@@ -308,10 +309,12 @@
 
     .workshop-navigation-inner {
       a {
-        display:block;
-        padding:0;
-        border-bottom:1px solid rgba(black, 0.3);
+        width:100px;
+        padding:10px 0;
+        line-height:17px;
+        font-size:11px;
 
+        &:hover { text-decoration: none }
       }
     }
   }

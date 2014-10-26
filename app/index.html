@@ -1,13 +1,20 @@
 ---
-layout: default
-title: Mercería Alonso
+layout: home
+title:  Mercería Alonso
 ---
 
-<div id="home">
-  <!-- <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul> -->
-</div>
+
+
+
+<!-- build:js(app) /js/home.js -->
+<script src="/_bower_components/jquery/jquery.js"></script>
+<script src="/_bower_components/underscore/underscore.js"></script>
+<script src="/_bower_components/backbone/backbone.js"></script>
+<script src="/_bower_components/jquery-cookie/jquery.cookie.js"></script>
+<script src="/_bower_components/jssor-slider/js/jssor.js"></script>
+<script src="/_bower_components/jssor-slider/js/jssor.slider.mini.js"></script>
+<script src="/js/models/cookie_model.js"></script>
+<script src="/js/cookie_banner.js"></script>
+<script src="/js/home/slider.js"></script>
+<script src="/js/home/home.js"></script>
+<!-- endbuild -->

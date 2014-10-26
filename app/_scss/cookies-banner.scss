@@ -9,7 +9,7 @@
     left:0;
     right:0;
     bottom:0;
-    display:block;
+    display:none;
     padding:10px 20px 10px 40px;
     background:#FEFEB2;
     text-align:center;
@@ -20,10 +20,24 @@
 
     i {
       position:absolute;
-      left:10px;
+      left:15px;
       top:50%;
       margin-top:-8px;
       color:rgba(black,0.5);
       font-size:15px;
+
+      &:hover { color:rgba(black,0.8) }
     }
+
+    .cookie-link {
+      text-decoration: underline;
+      color:rgba(black,0.5);
+      &:hover { color:rgba(black,0.75); }
+    }
+  }
+
+
+  @media (min-width: 0) and (max-width: 567px) {
+    .cookie-banner h6 { font-size:13px }
+    .cookie-banner p { font-size:12px }
   }

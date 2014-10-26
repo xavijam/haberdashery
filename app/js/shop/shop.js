@@ -17,6 +17,7 @@
       initialize: function(obj) {
         this.options = obj;
         this.model = new Backbone.Model({ active: false });
+        this.cookie = new CookieModel({ id: 'merceria-alonso' });
         this._initViews();
         this._initBinds();
       },
@@ -26,6 +27,13 @@
           el: this.$('#localizacion')
         });
         location_map.render();
+
+        // Show cookies?
+        var cookie_banner = new CookieBanner({
+          el: this.$('.cookie-banner'),
+          model: this.cookie
+        });
+        cookie_banner.render();
       },
 
       _initBinds: function() {

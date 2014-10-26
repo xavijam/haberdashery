@@ -30,6 +30,7 @@
         });
         cookie_banner.render();
 
+        // Image slider
         var slider = new Slider({
           el: this.$('.image-slider')
         });

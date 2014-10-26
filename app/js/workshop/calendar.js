@@ -81,9 +81,16 @@
 
       return _.map(this.options.events.classes, function(item, i){
         item.id = i;
-        item.start = new Date(moment().weekday(-7).day(item.day).hour(item.hourStart).minute(item.minStart).second(0).format());
-        item.end = new Date(moment().weekday(-7).day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0).format());
         item.color = events.types[ item.title ];
+
+        var weekday = moment().weekday();
+        if (weekday === 0) {
+          weekday = -1;
+        }
+
+        item.start = new Date(moment().weekday(weekday).day(item.day).hour(item.hourStart).minute(item.minStart).second(0).format());
+        item.end = new Date(moment().weekday(weekday).day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0).format());
+
         return item
       });
     }

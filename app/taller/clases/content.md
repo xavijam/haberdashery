@@ -1,6 +1,6 @@
 ---
 layout:       workshop
-title:        Clases puntuales - Mercería Alonso
+title:        Clases puntuales
 description:  Infórmate de nuestras clases puntuales para crear prendas, abalorios o complementos con estilo
 keywords:     > 
   taller,clase puntual,clases puntuales,creación bolsos,creación abalorios,mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid
@@ -8,13 +8,13 @@ type:         punctual
 permalink:    /taller/clases-puntuales/
 ---
 
-  <section class="workshop-item workshop-item-center">
-    <div class="workshop-item-inner">
+  <section class="page-item page-item-center">
+    <div class="page-item-inner">
       <h3>Clases puntuales</h3>
       <p>Cursos que tienen una duración determinada, podrás iniciarte en el mundo de la costura, donde aprenderás técnicas básicas, o realizar una prenda en concreto para ti o tu casa.
 Estas clases se publicarán con antelación, tanto en la web como en la mercería Alonso, para poder apuntarte ya que las plazas son limitadas.</p>
 
-      <ul class="workshop-highlights">
+      <ul class="page-highlights">
         <li>
           <h4>5-6</h4>
           <p>alumnos<br/>por clase</p>
@@ -32,12 +32,12 @@ Estas clases se publicarán con antelación, tanto en la web como en la mercerí
     </div>
   </section>
 
-  <section class="workshop-item workshop-item-odd">
-    <div class="workshop-item-inner">
-      <div class="workshop-align-left workshop-type-image">
+  <section class="page-item page-item-odd">
+    <div class="page-item-inner">
+      <div class="page-align-left page-type-image">
         <img src="/img/workshop/punctual-classes.png" class="expanded" alt="Clases puntuales" title="Clases puntuales">
       </div>
-      <div class="workshop-align-right workshop-type-content">
+      <div class="page-align-right page-type-content">
         <h4>¿Cúal será la próxima clase?</h4>
         <p>Desafortunadamente aún no tenemos una clase confirmada, en cuanto sea posible publicaremos cual será la siguiente disponible.</p>
         <p>Aún así, puedes <a href="/localizacion/">visitarnos</a> o ponerte en <a href="/contacto/">contacto</a> con nosotros.</p>

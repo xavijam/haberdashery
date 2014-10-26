@@ -1,12 +1,12 @@
 
   /**
-   *  Workshop javascript
+   *  Location javascript
    *
    */
 
   $(function(){
 
-    var WorkShop = Backbone.View.extend({
+    var Shop = Backbone.View.extend({
 
       events: {
         "click a[href*=#]:not([href=#])": "_scrollTo",
@@ -22,13 +22,10 @@
       },
 
       _initViews: function() {
-        var calendar = new WorkshopCalendar({
-          el:     this.$('.page-calendar'),
-          events: this.options.classes,
-          type:   this.options.type
+        var location_map = new LocationMap({
+          el: this.$('#localizacion')
         });
-
-        this.$('#calendar').append(calendar.render().el);
+        location_map.render();
       },
 
       _initBinds: function() {
@@ -74,10 +71,6 @@
 
     });
 
-    window.workshop = new WorkShop({
-      el:       document.body,
-      classes:  window.classes,
-      type:     window.type
-    });
+    window.shop = new Shop({ el: document.body });
 
   });

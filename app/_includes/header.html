@@ -3,10 +3,14 @@
     <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <a class="header-comp-nav" href="#/open-nav"><i class="fa fa-bars"></i></a>
     <nav>
-      <a href="/taller/" class="{% if page.url == '/taller/' %} selected {% endif %}">taller</a>
-      <a class="disabled {% if page.url == '/productos/' %} selected {% endif %}">productos</a>
-      <a href="/localizacion/" class="{% if page.url == '/localizacion/' %} selected {% endif %}">localización</a>
-      <a href="/contacto/" class="{% if page.url == '/contacto/' %} selected {% endif %}">contacto</a>
+      <a href="/taller/" class="
+        {% if (page.url == '/taller/' or page.url == '/taller/clases-puntuales/' or page.url == '/taller/alquiler-maquinas-de-coser/') %}
+          selected
+        {% endif %}
+      ">taller</a>
+      <a class="disabled">productos</a>
+      <a href="/tienda/" class="{% if page.url == '/tienda/' %} selected {% endif %}">localización</a>
+      <a href="/tienda/#contacto">contacto</a>
     </nav>
   </div>
 </header>

@@ -1,0 +1,46 @@
+
+  /**
+   *  Styles for timetable
+   *
+   */
+
+  @import "compass/css3/inline-block";
+  @import "compass/css3/border-radius";
+
+  .timetable {
+    display:block;
+    margin-top:25px!important;
+
+    li {
+      display:block;
+      margin-top:15px!important;
+    }
+
+    label, div, span {
+      @include inline-block();
+    }
+
+    label {
+      width:75px;
+      text-align:right;
+      margin-right:10px;
+    }
+
+    .separator { margin:0 5px }
+
+    .hours {
+      border:1px solid #CCCCCC;
+      @include border-radius(2px);
+
+      p {
+        width:70px;
+        margin-top:0;
+        text-align:center;
+        font:normal 13px 'Cabin',Arial;
+        line-height:24px;
+        color:#999999;
+
+        &:first-child { border-bottom:1px solid #EEEEEE }
+      }
+    }
+  }

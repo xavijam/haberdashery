@@ -1,12 +1,12 @@
 
   /**
-   *  Workshop javascript
+   *  Cookies javascript
    *
    */
 
   $(function(){
 
-    var WorkShop = Backbone.View.extend({
+    var Cookies = Backbone.View.extend({
 
       events: {
         "click a[href*=#]:not([href=#])": "_scrollTo",
@@ -21,15 +21,7 @@
         this._initBinds();
       },
 
-      _initViews: function() {
-        var calendar = new WorkshopCalendar({
-          el:     this.$('.page-calendar'),
-          events: this.options.classes,
-          type:   this.options.type
-        });
-
-        this.$('#calendar').append(calendar.render().el);
-      },
+      _initViews: function() {},
 
       _initBinds: function() {
         this.model.bind('change:active', this._onActiveChange, this);
@@ -74,10 +66,6 @@
 
     });
 
-    window.workshop = new WorkShop({
-      el:       document.body,
-      classes:  window.classes,
-      type:     window.type
-    });
+    window.cookies = new Cookies({ el: document.body });
 
   });

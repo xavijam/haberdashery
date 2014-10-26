@@ -5,10 +5,10 @@
 - [x] Calendar
 - [x] 404 page
 - [ ] Home
-- [ ] Location page
-- [ ] Contact page (or block)
-- [ ] Cookies stuff
-- [ ] Texts
+- [x] Location page
+- [x] Contact page (or block)
+- [x] Cookies stuff
+- [x] Texts
 - [x] Punctual classes
 - [x] Sewing machine renting
 - [x] Finish responsive version

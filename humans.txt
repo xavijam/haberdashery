@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+  Laurita -- Illustrator
+  Javier Álvarez -- Developer -- @xavijam
+
+# THANKS
+  
+  To all open source libraries and frameworks
+
+# TECHNOLOGY COLOPHON
+
+  CSS3, HTML5
+  Jekyll, GitHub pages, and a lot of frameworks

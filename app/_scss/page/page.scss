@@ -227,9 +227,16 @@
 
   // Hello media queries
 
+  @media (min-width: 0) and (max-width: 900px) {
+    .header-content.default {
+      background-size:auto 100%;
+    }
+  }
+
   @media (min-width: 0) and (max-width: 1100px) {
     .header-content.monthly,
     .header-content.punctual,
+    .header-content.renting,
     .header-content.none {
       background-size:auto 100%;
     }
@@ -243,9 +250,6 @@
   }
 
   @media only screen and (max-width: 568px) {
-    .header-content.default {
-      background-size:auto 100%;
-    }
 
     .page-title {
       padding:100px 0;
@@ -294,10 +298,6 @@
   }
 
   @media (min-width: 0) and (max-width: 567px) {
-    .header-content.default {
-      background-position:top center;
-      background-size:100% auto;
-    }
 
     .page-highlights {
       margin:40px 0;

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mercería Alonso</title>
-    <description>Mercería Alonso, desde 1978 ayudándote a conseguir tu estilo
+    <description>Mercería Alonso, desde 1978, ayudándote a crear tu propio estilo
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Oct 2014 23:47:51 +0100</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2014 23:47:51 +0100</lastBuildDate>
+    <pubDate>Mon, 27 Oct 2014 23:55:44 +0100</pubDate>
+    <lastBuildDate>Mon, 27 Oct 2014 23:55:44 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>

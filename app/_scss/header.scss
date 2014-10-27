@@ -176,26 +176,24 @@
         padding:15px 30px!important;
         margin-left:0;
         text-transform: uppercase;
-        border-top:1px solid #787878!important;
+        border-top:1px solid #444!important;
         text-align:left;
 
-        &:last-child { border-bottom:1px solid #787878 }
+        &:last-child { border-bottom:1px solid #444 }
 
         &:hover {
-          border-top:1px solid #787878!important;
-          border-color:#787878!important
+          border-top:1px solid #444!important;
+          border-color:#444!important
         }
       }
 
       a.selected {
         text-decoration:none;
-        border-color:#787878!important;
+        border-color:#444!important;
         background:#292929!important;
       }
 
-      a.disabled {
-        border-color:#787878!important;
-      }
+      a.disabled { border-color:#444!important }
     }
 
 

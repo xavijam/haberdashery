@@ -4,6 +4,8 @@
    *
    */
 
+  @import "compass/css3/border-radius";
+
   .cookie-banner {
     position:fixed;
     left:0;
@@ -16,6 +18,7 @@
     z-index:10000;
 
     h6 { font-size:15px; color:#373726 }
+    h6 a { color:#373726; text-decoration:none }
     p { color:#7F7F59 }
 
     i {
@@ -38,6 +41,13 @@
 
 
   @media (min-width: 0) and (max-width: 567px) {
+    .cookie-banner {
+      left:3px;
+      right:3px;
+      bottom:3px;
+      @include border-radius(2px);
+    }
     .cookie-banner h6 { font-size:13px }
-    .cookie-banner p { font-size:12px }
+    .cookie-banner h6 a { text-decoration:underline }
+    .cookie-banner p { display:none!important; }
   }

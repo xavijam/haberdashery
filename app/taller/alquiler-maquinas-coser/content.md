@@ -13,7 +13,7 @@ permalink:    /taller/alquiler-maquinas-de-coser/
       <h3>Alquiler de máquinas de coser</h3>
       <p>¡Hazlo tu mismo! Y tendrás la satisfacción de aprender, crear, socializar… y mientras te diviertes, te invitamos a un café o uno de nuestros tés.</p>
 
-      <ul class="page-highlights">
+      <!--ul class="page-highlights">
         <li>
           <h4>3<small>€</small></h4>
           <p>por una sesión<br/>de una hora</p>
@@ -26,8 +26,8 @@ permalink:    /taller/alquiler-maquinas-de-coser/
           <h4>25<small>€</small></h4>
           <p>por un bono<br/>de 10 horas</p>
         </li>
-      </ul>
-      <a href="mailto:info@merceriaalonso.com" class="calendar btn wide purple">Escríbenos</a>
+      </ul-->
+      <p><a href="mailto:info@merceriaalonso.com" class="calendar btn wide purple">Escríbenos</a></p>
     </div>
   </section>
 

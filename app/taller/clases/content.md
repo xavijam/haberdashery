@@ -23,10 +23,10 @@ Estas clases se publicarán con antelación, tanto en la web como en la mercerí
           <h4>2</h4>
           <p>horas<br/>de duración</p>
         </li>
-        <li>
+        <!--li>
           <h4>14<small>€</small></h4>
           <p>con material<br/>incluido</p>
-        </li>
+        </li-->
       </ul>
       <a href="mailto:info@merceriaalonso.com" class="calendar btn wide blue">Contáctanos</a>
     </div>

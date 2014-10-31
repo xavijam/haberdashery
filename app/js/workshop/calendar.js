@@ -53,7 +53,7 @@
         eventMouseout : function(calEvent, $event) {},
         noEvents : function() {},
         data : function(start, end, callback) {
-           callback(self._getEventData());
+          callback(self._getEventData());
         },
         readonly: true,
         shortDays : ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],
@@ -88,8 +88,8 @@
           weekday = -1;
         }
 
-        item.start = new Date(moment().weekday(weekday).day(item.day).hour(item.hourStart).minute(item.minStart).second(0).format());
-        item.end = new Date(moment().weekday(weekday).day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0).format());
+        item.start = new Date(moment().weekday(weekday).day(item.day).hour(item.hourStart).minute(item.minStart).second(0));
+        item.end = new Date(moment().weekday(weekday).day(item.day).hour(item.hourEnd).minute(item.minEnd).second(0));
 
         return item
       });

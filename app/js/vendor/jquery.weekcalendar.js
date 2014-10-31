@@ -567,7 +567,6 @@
          $.each(eventsToRender, function(i, calEvent) {
 
             var $weekDay = self._findWeekDayForEvent(calEvent, $weekDayColumns);
-
             if ($weekDay) {
                self._renderEvent(calEvent, $weekDay);
             }

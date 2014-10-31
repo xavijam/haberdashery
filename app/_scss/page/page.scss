@@ -60,9 +60,12 @@
   // Page 'header'
   .header-content {
     position:relative;
+    background-repeat:no-repeat;
+    background-repeat:repeat\9;
+    background-position:center center;
 
     &.default {
-      background:url('/img/page/page-header-bkg.jpg') no-repeat center center;
+      background-image:url('/img/page/page-header-bkg.jpg');
       background-size:100% auto;      
     }
 
@@ -72,17 +75,17 @@
     }
 
     &.monthly {
-      background:url('/img/page/page-header-bkg-green.jpg') no-repeat 0 0;
+      background-image:url('/img/page/page-header-bkg-green.jpg');
       background-size:100% auto;
     }
 
     &.punctual {
-      background:url('/img/page/page-header-bkg-blue.jpg') no-repeat 0 0;
+      background-image:url('/img/page/page-header-bkg-blue.jpg');
       background-size:100% auto;
     }
 
     &.renting {
-      background:url('/img/page/page-header-bkg-purple.jpg') no-repeat 0 0;
+      background-image:url('/img/page/page-header-bkg-purple.jpg');
       background-size:100% auto;
     }
   }
@@ -115,6 +118,7 @@
       font-size: 19px;
       font-weight:300;
       color: rgba(white,.8);
+      color:#E4E4E4\9;
     }
 
   }

@@ -131,7 +131,7 @@ module.exports = function (grunt) {
     },
     autoprefixer: {
       options: {
-        browsers: ['*']
+        browsers: ['last 2 versions', 'ie 7', 'ie 8', 'ie 9']
       },
       dist: {
         files: [{
@@ -378,7 +378,7 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'autoprefixer:dist',
+    // 'autoprefixer:dist',
     'cssmin',
     'uglify',
     'imagemin',

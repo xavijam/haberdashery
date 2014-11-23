@@ -1,6 +1,6 @@
 
   /**
-   *  Styles for workshop page
+   *  Styles for page
    *
    */
 
@@ -67,26 +67,6 @@
     &.default {
       background-image:url('/img/page/page-header-bkg.jpg');
       background-size:100% auto;      
-    }
-
-    &.none {
-      padding-bottom:150px;
-      background:none;
-    }
-
-    &.monthly {
-      background-image:url('/img/page/page-header-bkg-green.jpg');
-      background-size:100% auto;
-    }
-
-    &.punctual {
-      background-image:url('/img/page/page-header-bkg-blue.jpg');
-      background-size:100% auto;
-    }
-
-    &.renting {
-      background-image:url('/img/page/page-header-bkg-purple.jpg');
-      background-size:100% auto;
     }
   }
 

@@ -40,7 +40,7 @@ Estas clases se publicarán con antelación, tanto en la web como en la mercerí
       <div class="page-align-right page-type-content">
         <h4>¿Cúal será la próxima clase?</h4>
         <p>Desafortunadamente aún no tenemos una clase confirmada, en cuanto sea posible publicaremos cual será la siguiente disponible.</p>
-        <p>Aún así, puedes <a href="/localizacion/">visitarnos</a> o ponerte en <a href="/contacto/">contacto</a> con nosotros.</p>
+        <p>Aún así, puedes <a class="blue" href="/localizacion/">visitarnos</a> o ponerte en <a href="/contacto/" class="blue">contacto</a> con nosotros.</p>
       </div>
     </div>
   </section>

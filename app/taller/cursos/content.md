@@ -33,7 +33,7 @@ permalink:    /taller/
   <section class="page-item page-item-odd">
     <div class="page-item-inner">
       <div class="page-align-left page-type-image">
-        <img src="/img/workshop/corte-confeccion.png" alt="Corte y confección" title="Corte y confección" />
+        <img class="dressmaking" src="/img/workshop/corte-confeccion.png" alt="Corte y confección" title="Corte y confección" />
       </div>
       <div class="page-align-right page-type-content">
         <h4>Corte y confección</h4>
@@ -85,7 +85,7 @@ permalink:    /taller/
   <section class="page-item page-item-odd">
     <div class="page-item-inner">
       <div class="page-align-left page-type-image">
-        <img src="/img/workshop/ganchillo.png" alt="Ganchillo" title="Ganchillo" />
+        <img src="/img/workshop/ganchillo.png" class="crochet" alt="Ganchillo" title="Ganchillo" />
       </div>
       <div class="page-align-right page-type-content">
         <h4>Ganchillo</h4>

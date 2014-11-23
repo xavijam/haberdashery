@@ -1,0 +1,91 @@
+
+  /**
+   *  Styles for workshop pages
+   *
+   */
+
+  @import "compass/css3/transform";
+
+
+  .header-content {
+
+    &.none {
+      padding-bottom:150px;
+      background:none;
+    }
+
+    &.monthly {
+      background-image:url('/img/page/page-header-bkg-green.jpg');
+      background-size:100% auto;
+    }
+
+    &.punctual {
+      background-image:url('/img/page/page-header-bkg-light-blue.jpg');
+      background-size:100% auto;
+    }
+
+    &.renting {
+      background-image:url('/img/page/page-header-bkg-pink.jpg');
+      background-size:100% auto;
+    }
+  }
+
+
+  .page-type-image {
+    text-align:center;
+
+    img {
+      // Type
+      &.expanded { width:100% }
+
+      // Named
+      &.contact,
+      &.canastilla { margin-top:30px }
+      &.hours,
+      &.patchwork { margin-top:60px }
+      &.hours { margin-right:30px }
+      &.punto { margin-top:40px }
+      &.sewing-machine { margin-top:-120px }
+    }
+    
+    &.page-align-left img { left:15% }
+    &.page-align-right img { right:15% }
+  }
+ 
+
+    // Hello media queries
+
+  @media (min-width: 0) and (max-width: 900px) {
+    
+  }
+
+  @media (min-width: 0) and (max-width: 1100px) {
+    .header-content.monthly,
+    .header-content.punctual,
+    .header-content.renting,
+    .header-content.none {
+      background-size:auto 100%;
+    }
+  }
+
+  @media only screen and (max-width: 568px) {
+    img {
+      // Type
+      &.expanded { }
+
+      // Named
+      &.dressmaking,
+      &.canastilla,
+      &.patchwork,
+      &.punto,
+      &.crochet { @include scale(.85,.85) }
+      
+      &.contact { }
+      &.hours { }
+      &.sewing-machine { }
+    }
+  }
+
+  @media (min-width: 0) and (max-width: 567px) {
+
+  }

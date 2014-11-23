@@ -27,7 +27,7 @@ permalink:    /taller/alquiler-maquinas-de-coser/
           <p>por un bono<br/>de 10 horas</p>
         </li>
       </ul-->
-      <p><a href="mailto:info@merceriaalonso.com" class="calendar btn wide purple">Escríbenos</a></p>
+      <p><a href="mailto:info@merceriaalonso.com" class="calendar btn wide pink">Escríbenos</a></p>
     </div>
   </section>
 
@@ -38,8 +38,8 @@ permalink:    /taller/alquiler-maquinas-de-coser/
       </div>
       <div class="page-align-right page-type-content">
         <h4>¿Qué debo hacer para alquilar una?</h4>
-        <p>Ponte en <a href="/contacto/">contacto</a> con nosotros o simplemente <a href="/localizacion/">visítanos</a> para conocer la disponibilidad de nuestras máquinas de coser.</p>
-        <p>Y sí ya posees una y no sabes como darle uso, apúntate a una de nuestras <a href="/taller/">clases</a> y empieza a utilizarla.</p>
+        <p>Ponte en <a href="/contacto/" class="pink">contacto</a> con nosotros o simplemente <a href="/localizacion/" class="pink">visítanos</a> para conocer la disponibilidad de nuestras máquinas de coser.</p>
+        <p>Y sí ya posees una y no sabes como darle uso, apúntate a una de nuestras <a href="/taller/" class="pink">clases</a> y empieza a utilizarla.</p>
       </div>
     </div>
   </section>

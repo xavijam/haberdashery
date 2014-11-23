@@ -1,0 +1,40 @@
+
+  /**
+   *  Colors!
+   */
+
+  @import "vars";
+
+
+  // Blue color
+  .blue {
+    color:#53B5E6;
+    border-color:#53B5E6;
+
+    &:hover {
+      color: #3B82A7;
+      border-color: #3B82A7;
+    }
+  }
+
+  // Green color
+  .green {
+    color: $green;
+    border-color: $green;
+
+    &:hover {
+      color: $green_hover;
+      border-color: $green_hover;
+    }
+  }
+
+  // Pink color
+  .pink {
+    color: #D92A69;
+    border-color: #D92A69;
+
+    &:hover {
+      color: #A31E4E;
+      border-color: #A31E4E;
+    } 
+  }

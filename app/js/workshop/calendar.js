@@ -27,7 +27,7 @@
         timeFormat : "H:i",
         date: new Date(),
         dateFormat : "",
-        timeslotsPerHour : 3,
+        timeslotsPerHour : 2,
         allowCalEventOverlap : true,
         overlapEventsSeparate: true,
         firstDayOfWeek : 1,
@@ -37,6 +37,7 @@
         useShortDayNames: true,
         timeSeparator: " - ",
         buttons: false,
+        timeslotHeight: 20,
         height : function($calendar) {
           return $(window).height()
         },

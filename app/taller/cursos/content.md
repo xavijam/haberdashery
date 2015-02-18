@@ -3,7 +3,10 @@ layout:       workshop
 title:        Cursos mensuales
 description:  Elige cualquiera de nuestros cursos mensuales o alquila una máquina de coser por tu cuenta
 keywords:     >
-  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,curso ganchillo,ganchillo,corte y confección,curso corte y confección,mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid
+  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,
+  curso ganchillo,ganchillo,corte y confección,curso corte y confección,
+  mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid,
+  patchwork majadahonda
 type:         monthly
 permalink:    /taller/
 ---

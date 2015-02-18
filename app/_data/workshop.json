@@ -162,9 +162,9 @@
       "title":      "Corte y confección",
       "day":        "wednesday",
       "hourStart":  "10",
-      "minStart":   "30",
+      "minStart":   "0",
       "hourEnd":    "12",
-      "minEnd":     "30"
+      "minEnd":     "0"
     },
 
     {

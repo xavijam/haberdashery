@@ -1,15 +1,25 @@
 {
   "types": {
-    "Punto":                        "#C6D0EB",
-    "Corte y confección":           "#ADF3E8",
-    "Ganchillo":                    "#FFCCCB",
-    "Patchwork":                    "#F4E6A3",
-    "Corte y confección infantil":  "#85B2E9"
+    "Punto":              "#C6D0EB",
+    "Corte y confección": "#ADF3E8",
+    "Ganchillo":          "#FFCCCB",
+    "Patchwork":          "#F4E6A3",
+    "Cartonaje":          "#85B2E9"
   },  
   "classes": [
     {
       "type":       "monthly",
       "title":      "Punto",
+      "day":        "monday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
       "day":        "monday",
       "hourStart":  "10",
       "minStart":   "0",
@@ -31,9 +41,49 @@
       "type":       "monthly",
       "title":      "Punto",
       "day":        "monday",
-      "hourStart":  "17",
+      "hourStart":  "16",
       "minStart":   "0",
-      "hourEnd":    "19",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "monday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "monday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "monday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "tuesday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
       "minEnd":     "0"
     },
 
@@ -44,6 +94,46 @@
       "hourStart":  "10",
       "minStart":   "0",
       "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "tuesday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Patchwork",
+      "day":        "tuesday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Patchwork",
+      "day":        "tuesday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "tuesday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
       "minEnd":     "0"
     },
 
@@ -60,6 +150,66 @@
     {
       "type":       "monthly",
       "title":      "Punto",
+      "day":        "wednesday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "wednesday",
+      "hourStart":  "10",
+      "minStart":   "30",
+      "hourEnd":    "12",
+      "minEnd":     "30"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Patchwork",
+      "day":        "wednesday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "wednesday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "wednesday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "wednesday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Cartonaje",
       "day":        "wednesday",
       "hourStart":  "18",
       "minStart":   "0",
@@ -79,6 +229,16 @@
 
     {
       "type":       "monthly",
+      "title":      "Cartonaje",
+      "day":        "thursday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
       "title":      "Corte y confección",
       "day":        "thursday",
       "hourStart":  "16",
@@ -89,11 +249,31 @@
 
     {
       "type":       "monthly",
-      "title":      "Punto",
-      "day":        "friday",
+      "title":      "Corte y confección",
+      "day":        "thursday",
       "hourStart":  "18",
       "minStart":   "0",
       "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "thursday",
+      "hourStart":  "18",
+      "minStart":   "0",
+      "hourEnd":    "20",
+      "minEnd":     "0"
+    },
+
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "friday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
       "minEnd":     "0"
     },
 
@@ -109,7 +289,7 @@
 
     {
       "type":       "monthly",
-      "title":      "Corte y confección infantil",
+      "title":      "Punto",
       "day":        "saturday",
       "hourStart":  "12",
       "minStart":   "0",

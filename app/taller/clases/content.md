@@ -3,7 +3,10 @@ layout:       workshop
 title:        Clases puntuales
 description:  Infórmate de nuestras clases puntuales para crear prendas, abalorios o complementos con estilo
 keywords:     > 
-  taller,clase puntual,clases puntuales,creación bolsos,creación abalorios,mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid
+  taller,cursos mensuales,cursos,patchwork,curso patchwork,curso punto,punto,
+  curso ganchillo,ganchillo,corte y confección,curso corte y confección,
+  mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid,
+  patchwork majadahonda
 type:         punctual
 permalink:    /taller/clases-puntuales/
 ---

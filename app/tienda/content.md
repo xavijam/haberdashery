@@ -71,7 +71,7 @@ permalink:    /tienda/
       <p>Si no tienes la oportunidad de acercarte a nuestra tienda, podemos atenderte por otros medios.</p>
       <ul>
         <li>En horario de tienda, el teléfono o fax <a href="tel:+34916385477">916385477</a>.</li>
-        <li>Las 24 horas en <a href="mailto:info@merceriaalonso.com">info@merceriaalonso.com</a>.</li>
+        <li>Las 24 horas en <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</li>
       </ul>
     </div>
   </div>

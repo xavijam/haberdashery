@@ -31,7 +31,7 @@ Estas clases se publicarán con antelación, tanto en la web como en la mercerí
           <p>con material<br/>incluido</p>
         </li-->
       </ul>
-      <a href="mailto:info@merceriaalonso.com" class="calendar btn wide blue">Contáctanos</a>
+      <a href="mailto:{{ site.email }}" class="calendar btn wide blue">Contáctanos</a>
     </div>
   </section>
 

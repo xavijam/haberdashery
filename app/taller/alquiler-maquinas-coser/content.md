@@ -27,7 +27,7 @@ permalink:    /taller/alquiler-maquinas-de-coser/
           <p>por un bono<br/>de 10 horas</p>
         </li>
       </ul-->
-      <p><a href="mailto:info@merceriaalonso.com" class="calendar btn wide pink">Escríbenos</a></p>
+      <p><a href="mailto:{{ site.email }}" class="calendar btn wide pink">Escríbenos</a></p>
     </div>
   </section>
 

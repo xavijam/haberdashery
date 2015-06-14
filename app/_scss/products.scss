@@ -1,0 +1,44 @@
+// Product styles
+// --------------------------------------------------
+
+@import "compass/css3/inline-block";
+
+.Product {
+  @include inline-block();
+  margin-right: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 41px;
+}
+
+@mixin product-type($name, $w, $h) {
+  .Product--#{$name} {
+    width: $w;
+    background-size: $w $h;
+    background-image: url('/img/home/#{$name}.png');
+  }
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    .Product--#{name} {
+      background-size: $w $h;
+      background-image: url('/img/home/#{$name}-2x.png');
+    }
+  }
+}
+
+@include product-type(scissors, 32px, 41px);
+@include product-type(button, 42px, 41px);
+@include product-type(tape, 40px, 36px);
+@include product-type(tights, 32px, 42px);
+@include product-type(headdress, 27px, 41px);
+@include product-type(thread, 29px, 41px);
+@include product-type(baby, 34px, 40px);
+@include product-type(trinket, 40px, 42px);
+@include product-type(fabric, 42px, 28px);
+

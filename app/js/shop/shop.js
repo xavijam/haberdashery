@@ -10,30 +10,39 @@
 
       events: {
         "click a[href*=#]:not([href=#])": "_scrollTo",
-        "click .header-comp-nav": "_changeActive",
+        "click .js-headerButton": "_changeActive",
         "click": "_removeActive"
       },
 
       initialize: function(obj) {
         this.options = obj;
         this.model = new Backbone.Model({ active: false });
-        this.cookie = new CookieModel({ id: 'merceria-alonso' });
+        // this.cookie = new CookieModel({ id: 'merceria-alonso' });
         this._initViews();
         this._initBinds();
       },
 
       _initViews: function() {
+        // Map
         var location_map = new LocationMap({
-          el: this.$('#localizacion')
+          el: this.$('.js-map')
         });
         location_map.render();
 
         // Show cookies?
-        var cookie_banner = new CookieBanner({
-          el: this.$('.cookie-banner'),
-          model: this.cookie
+        // var cookie_banner = new CookieBanner({
+        //   el: this.$('.cookie-banner'),
+        //   model: this.cookie
+        // });
+        // cookie_banner.render();
+
+        // Parallax
+        this.$('.parallax-window').parallax({ imageSrc: '/img/shop/shop.jpg' });
+
+        // Last posts
+        var lastPosts = new LastPosts({
+          el: this.$('.js-posts')
         });
-        cookie_banner.render();
       },
 
       _initBinds: function() {

@@ -1,24 +1,17 @@
-<footer>
-  <div class="inner">
-    <h1 class="logo"><a href="{{ site.baseurl }}/"></a></h1>
-    <nav>
-      <a href="/taller/" class="
-        {% if (page.url == '/taller/' or page.url == '/taller/clases-puntuales/' or page.url == '/taller/alquiler-maquinas-de-coser/') %}
-          selected
-        {% endif %}
-      ">taller</a>
-      <a class="disabled {% if page.url == '/productos/' %} selected {% endif %}">productos</a>
-      <a href="/tienda/" class="{% if page.url == '/tienda/' %} selected {% endif %}">localización</a>
-      <a href="{{ site.blog }}">blog</a>
-      <a href="/tienda/#contacto" class="{% if page.url == '/tienda/#contacto' %} selected {% endif %}">contacto</a>
+<footer class="Footer">
+  <div class="Footer-inner u-inner">
+    <h1 class="Footer-logo"><a class="Footer-logoLink" href="{{ site.baseurl }}/"></a></h1>
+    <nav class="Footer-nav">
+      <a href="/taller/" class="Footer-navLink {% if (page.url == '/taller/') %} selected {% endif %}">taller</a>
+      <a href="/#productos" class="Footer-navLink">productos</a>
+      <a href="/tienda/" class="Footer-navLink {% if page.url == '/tienda/' %} selected {% endif %}">tienda</a>
+      <a href="{{ site.blog }}" class="Footer-navLink">blog</a>
     </nav>
-    <div class="social">
+    <div class="Footer-social">
       <a href="http://facebook.com/merceriaalonso"><i class="fa fa-facebook"></i></a>
       <a href="http://twitter.com/merceriaalonso"><i class="fa fa-twitter"></i></a>
       <a href="mailto:{{ site.email }}"><i class="fa fa-send"></i></a>
     </div>
-    <div class="rights">
-      ® {{ site.time | date: '%Y' }} Mercería Alonso
-    </div>
+    <div class="Footer-rights">® {{ site.time | date: '%Y' }} Mercería Alonso</div>
   </div>
 </footer>

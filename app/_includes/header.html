@@ -1,17 +1,14 @@
-<header class="{{ include.type }}">
-  <div class="inner">
-    <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    <a class="header-comp-nav" href="#/open-nav"><i class="fa fa-bars"></i></a>
-    <nav>
-      <a href="/taller/" class="
-        {% if (page.url == '/taller/' or page.url == '/taller/clases-puntuales/' or page.url == '/taller/alquiler-maquinas-de-coser/') %}
-          selected
-        {% endif %}
-      ">taller</a>
-      <a class="disabled">productos</a>
-      <a href="/tienda/" class="{% if page.url == '/tienda/' %} selected {% endif %}">localización</a>
-      <a href="{{ site.blog }}">blog</a>
-      <a href="/tienda/#contacto">contacto</a>
+<header class="{{ include.type }} Header">
+  <div class="Header-inner u-inner">
+    <h1 class="Header-logo">
+      <a class="Header-logoLink" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </h1>
+    <a href="#/open-nav" class="Header-navButton js-headerButton"><i class="fa fa-bars"></i></a>
+    <nav class="Header-nav">
+      <a href="/taller/" class="Header-navLink {% if (page.url == '/taller/') %} is-selected {% endif %}">taller</a>
+      <a href="/#productos" class="Header-navLink">productos</a>
+      <a href="/tienda/" class="Header-navLink {% if page.url == '/tienda/' %} is-selected {% endif %}">tienda</a>
+      <a href="{{ site.blog }}" class="Header-navLink">blog</a>
     </nav>
   </div>
 </header>

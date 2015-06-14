@@ -35,6 +35,14 @@
           el: this.$('.image-slider')
         });
         slider.render();
+
+        // // Last posts
+        // var lastPosts = new LastPosts({
+        //   el: this.$('.js-posts')
+        // });
+
+        // Slider
+        $('.js-slider').flickerplate();
       },
 
       _initBinds: function() {

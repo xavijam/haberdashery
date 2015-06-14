@@ -3,26 +3,14 @@ title:
 keywords:     >
   mercería,merceria,mercería alonso,merceria majadahonda,merceria madrid,telas,taller,cursos mensuales,clases puntuales,máquinas de coser,lanas,lazos,cintas,gomas,pasamanerías,abalorios,accesorios de bebe,hilos,merceria tradicional
 ---
-
-
 <!DOCTYPE html>
 <html>
   {% include head.html %}
   <body>
-    {% include shared/_cookies.html %}
+    <!--{% include shared/_cookies.html %}-->
     {% include header.html %}
-
-    <div class="image-slider">
-      <div class="caption">
-        Aún estamos mejorando la web, pero ya puedes entrar y conocer <a href="/taller">nuestro taller</a> o si lo prefieres ven a <a href="/tienda">visitarnos</a>.
-      </div>
-    </div>
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
+    {% include last-posts.html %}
     {% include footer.html %}
     {% include shared/_ganalytics.html %}
   </body>

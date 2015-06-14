@@ -1,0 +1,33 @@
+// Block styles
+// --------------------------------------------------
+
+.Block {
+  width: 100%;
+  padding: 80px 0;
+}
+.Block-header,
+.Block-footer {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 380px;
+  text-align: center;
+}
+.Block-title {
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 26px;
+  color: #4A4A4A;
+}
+.Block-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #878787;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+// Hello media queries
+@media (min-width: 0) and (max-width: 720px) {
+  .Block { padding: 30px 0 }
+}

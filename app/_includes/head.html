@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}{{ page.title }} - Mercería Alonso{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}Mercería Alonso · {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
@@ -25,30 +25,31 @@
   <meta name="twitter:image" content="{{ site.baseurl }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />
   <meta name="twitter:url" content="{{ site.baseurl }}{% if page.url %}{{ page.url }}{% endif %}" />
 
-  <link href='//fonts.googleapis.com/css?family=Montserrat:400,700|Cabin:400,500' rel='stylesheet' type='text/css'>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!--[if lte IE 8]>
+    <!-- build:css({app,.tmp}) /css/ie.css -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/vendor/old-responsive-pure-grid.css">
+    <!-- endbuild -->
+  <![endif]-->
   
   <!-- build:css({app,.tmp}) /css/main.css -->
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/css/vendor/reset.css">
-  <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/_bower_components/flickerplate/css/flickerplate.css"></script>
+  <link rel="stylesheet" href="/css/vendor/pure-min.css">
+  <link rel="stylesheet" href="/css/vendor/responsive-pure-grid.css">
   <link rel="stylesheet" href="/css/ui/default.css">
+  <link rel="stylesheet" href="/css/ui/list.css">
+  <link rel="stylesheet" href="/css/ui/block.css">
   <link rel="stylesheet" href="/css/ui/buttons.css">
-  <link rel="stylesheet" href="/css/ui/map.css">
-  <link rel="stylesheet" href="/css/ui/timetable.css">
-  <link rel="stylesheet" href="/css/ui/calendar.css">
-  <link rel="stylesheet" href="/css/ui/table.css">
-  <link rel="stylesheet" href="/css/ui/slider.css">
-  <link rel="stylesheet" href="/css/ui/colors.css">
-  <link rel="stylesheet" href="/css/cookies-banner.css">
-  <link rel="stylesheet" href="/css/header.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/vendor/jquery.weekcalendar.css">
-  <link rel="stylesheet" href="/css/page/page.css">
-  <link rel="stylesheet" href="/css/workshop/navigation.css">
-  <link rel="stylesheet" href="/css/workshop/workshop.css">
-  
+  <link rel="stylesheet" href="/css/common/header.css">
+  <link rel="stylesheet" href="/css/common/content.css">
+  <link rel="stylesheet" href="/css/common/footer.css">
+  <link rel="stylesheet" href="/css/content-header.css">
+  <link rel="stylesheet" href="/css/products.css">
+  <link rel="stylesheet" href="/css/map.css">
   <!-- endbuild -->
 
 

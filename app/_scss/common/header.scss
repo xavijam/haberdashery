@@ -1,0 +1,153 @@
+// Header style
+// --------------------------------------------------
+
+@import "compass/css3/inline-block";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+
+
+// Default header
+
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: rgba(black, 0.2);
+  z-index:2;
+}
+.Header-inner {
+  max-width: 880px;
+  height: 80px;
+  padding: 0 10px;
+}
+.Header-logo {
+  float:left;
+  width: 160px;
+  height: 50px;
+  padding: 0;
+  margin: 15px 0;
+}
+.Header-logoLink {
+  @include inline-block();
+  height: 50px;
+  padding: 0 0 0 66px;
+  line-height: 26px;
+  background: url('/img/logo_white.png') no-repeat 0 center;
+  background-size: 50px 50px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #FFF;
+  text-decoration: none;
+  &:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+.Header-navButton {
+  float: right;
+  display: none;
+  margin: 26px 10px 0 0;
+  
+  i {
+    font-size: 30px;
+    color: white;
+  }
+}
+.Header-nav {
+  float: right;
+  height: 57px;
+  @include transform-style("linear");
+  @include transition-property("left");
+  @include transition-duration(250ms);
+}
+.Header-navLink {
+  @include inline-block();
+  margin-left: 30px;
+  padding: 20px 0 0;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #DDD;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top: 2px solid transparent;
+
+  &:hover {
+    border-color: white;
+    color: white;
+    text-decoration: none;
+  }
+}
+.Header-navLink.is-selected {
+  border-color: white;
+  color: white;
+  text-decoration: none;
+}
+.Header-navLink.is-disabled {
+  color: #AAA;
+  &:hover {
+    color: #AAA;
+    border-color: transparent;
+  }
+}
+
+
+// Hello media queries
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .Header-logoLink {
+    background: url('/img/logo_white@2x.png') no-repeat 0 0;
+    background-size: 50px 50px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 720px) {
+  .Header-navButton { display:block!important }
+
+  .Header-nav {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    padding: 40px 0 0;
+    top: 0;
+    left: 100%;
+    background: #333;
+    z-index: 100;
+  }
+
+  .Header-navLink {
+    display: block!important;
+    padding: 15px 30px!important;
+    margin-left: 0;
+    text-transform: uppercase;
+    border-top: 1px solid #444!important;
+    text-align: left;
+
+    &:last-child { border-bottom: 1px solid #444 }
+
+    &:hover {
+      border-top: 1px solid #444!important;
+      border-color: #444!important
+    }
+  }
+
+  .Header-navLink.is-selected {
+    text-decoration: none;
+    border-color: #444!important;
+    background: #292929!important;
+  }
+
+  .Header-navLink.is-disabled { border-color: #444!important }
+
+  body.active .Header {
+    .Header-nav { left: 50% }
+  }
+}

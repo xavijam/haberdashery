@@ -2,24 +2,10 @@
 <html>
   {% include head.html %}
   <body>
-  {% include shared/_cookies.html %}
-
-    <div class="header-content {{ page.type }}">
-      {% include header.html type="light" %}
-      <div class="page-title">
-        <div class="page-title-inner">
-          <h2>{{ page.title }}</h2>
-          <p>{{ page.description }}</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    <!--{% include shared/_cookies.html %}-->
+    {% include header.html type="light" %}
+    {{ content }}
+    {% include last-posts.html %}
     {% include footer.html %}
     {% include shared/_ganalytics.html %}
   </body>

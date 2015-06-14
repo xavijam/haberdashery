@@ -1,38 +1,22 @@
-  
-  /**
-   *  Buttons and special links for haberdashery
-   *
-   */
+// Buttons styles
+// --------------------------------------------------
 
-  @import "compass/css3/border-radius";
-  @import "compass/css3/inline-block";
-  @import "compass/css3/transform";
-  @import "compass/css3/transition";
+@import "colors";
 
-
-  .btn {
-    // Default
-    @include inline-block();
-    padding:8px 10px;
-    text-transform: uppercase;
-    border:2px solid #CCC;
-    @include border-radius(4px);
-    font-size:14px;
-    font-family: 'Cabin', Arial;
-    text-decoration:none;
-    @include transform-style("linear");
-    @include transition-property("border,color");
-    @include transition-duration(250ms);
-
-    &:hover {
-      border-color: #999;
-      color: #999;
-    }
-
-    // Shape types //
-    
-    &.wide {
-      padding-left:20px;
-      padding-right:20px;
-    }
+.Button {
+  display: inline-block;
+  width: auto;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 36px;
+}
+.Button--main {
+  color: white;
+  background: $link;
+  &:hover {
+    color: white;
+    background: $linkHover;
+    text-decoration: none;
   }
+}

@@ -25,21 +25,15 @@
       _initViews: function() {
         // Show cookies?
         var cookie_banner = new CookieBanner({
-          el: this.$('.cookie-banner'),
+          el: this.$('.js-cookie'),
           model: this.cookie
         });
         cookie_banner.render();
 
-        // Image slider
-        var slider = new Slider({
-          el: this.$('.image-slider')
+        // Last posts
+        var lastPosts = new LastPosts({
+          el: this.$('.js-posts')
         });
-        slider.render();
-
-        // // Last posts
-        // var lastPosts = new LastPosts({
-        //   el: this.$('.js-posts')
-        // });
 
         // Slider
         $('.js-slider').flickerplate();

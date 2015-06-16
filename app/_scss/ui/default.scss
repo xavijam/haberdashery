@@ -25,6 +25,11 @@ a {
 .pure-g [class *="pure-u"] {
   font-family: 'Lato', Arial; 
 }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 // Margins
 // --------
@@ -34,3 +39,5 @@ a {
 .margint10 { margin-top: 10px }
 .margint15 { margin-top: 15px }
 .margint20 { margin-top: 20px }
+.margint25 { margin-top: 25px }
+.margint30 { margin-top: 30px }

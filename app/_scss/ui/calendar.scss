@@ -1,0 +1,105 @@
+/**
+ *  Workshop calendar styles
+ *
+ */
+
+@import "compass/css3/border-radius";
+@import "compass/css3/inline-block";
+
+
+// Calendar styles
+.Calendar {
+  margin-top: 50px;
+
+  .wc-header td {
+    padding:5px 0;
+    background:#333;
+    font-size:14px;
+    font-weight:normal;
+    color:white;
+  }
+
+  .wc-day-column {
+    border-color:white;
+    background:#F7F7F7;
+  }
+
+  .wc-time-slot { border-color:white }
+  .wc-hour-end { border-color:white }
+  // .wc-header .wc-day-column-header { padding: 0.6em }
+  .wc-grid-timeslot-header { background: #EFEFEF }
+
+  .wc-cal-event { @include border-radius(3px) }
+
+  .wc-cal-event .wc-time {
+    background:none;
+    border:none;
+  }
+
+  .wc-cal-event div { padding:0 10px }
+
+  .wc-title {
+    font:normal 14px 'Cabin',Arial;
+    color:rgba(black,.8);
+    text-align:left;
+  }
+
+  .wc-time {
+    margin:5px 0;
+    font:bold 11px 'Montserrat',Arial;
+    color:rgba(black,.4);
+    text-align:left;
+  }
+
+  .wc-business-hours {
+    font:normal 13px Arial;
+    color:#888888;
+    border-color:white
+  }
+
+  .wc-scrollable-grid { height: 400px!important }
+}
+
+// Workshop calendar legend
+.workshop-calendar-legend {
+  display:none;
+  margin:0 0 15px;
+  padding:0 10px;
+  text-align:center;
+
+  li {
+    @include inline-block();
+    margin-left:20px;
+    font:normal 14px 'Cabin', Arial;
+    color:#666;
+
+    span {
+      @include inline-block();
+      width:14px;
+      height:14px;
+      margin-right:6px;
+      @include border-radius(14px);
+    }
+  }
+}
+
+
+
+// Hello media queries
+
+@media only screen and (max-width: 900px) {
+
+  .workshop-calendar { margin:30px 0 0 }
+
+  .workshop-calendar-legend {
+    display:block;
+    text-align: left;
+    
+    li {
+      display:block;
+      margin-bottom:5px;
+    }
+  }
+
+  .wc-cal-event { text-indent:-9999px }
+}

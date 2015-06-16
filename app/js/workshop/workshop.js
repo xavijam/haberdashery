@@ -24,19 +24,27 @@
 
       _initViews: function() {
         var calendar = new WorkshopCalendar({
-          el:     this.$('.page-calendar'),
+          el:     this.$('.js-calendar'),
           events: this.options.classes,
           type:   this.options.type
         });
 
-        this.$('#calendar').append(calendar.render().el);
+        calendar.render();
 
         // Show cookies?
         var cookie_banner = new CookieBanner({
-          el: this.$('.cookie-banner'),
+          el: this.$('.js-cookie'),
           model: this.cookie
         });
         cookie_banner.render();
+
+        // Last posts
+        var lastPosts = new LastPosts({
+          el: this.$('.js-posts')
+        });
+
+        // Slider
+        $('.js-slider').flickerplate();
       },
 
       _initBinds: function() {

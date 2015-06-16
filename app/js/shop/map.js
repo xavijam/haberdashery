@@ -44,35 +44,23 @@
     },
 
     _addMarker: function() {
+      var image = {
+        url: '/img/shop/marker.png',
+        // This marker is 20 pixels wide by 32 pixels tall.
+        size: new google.maps.Size(60, 60),
+        // The origin for this image is 0,0.
+        origin: new google.maps.Point(0,0),
+        // The anchor for this image is the base of the flagpole at 0,32.
+        anchor: new google.maps.Point(30,60)
+      };
+
       var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.474049, -3.872952),
         map: this.map,
+        icon: image,
         title: 'Mercería Alonso'
       });
-      // this.map.data.addGeoJson({
-      //   "type": "Feature",
-      //   "geometry": {
-      //     "type":"MultiPolygon",
-      //     "coordinates":[[[
-      //       [-3.873039,40.474150],
-      //       [-3.873043,40.474090],
-      //       [-3.872883,40.474087],
-      //       [-3.872903,40.474259],
-      //       [-3.872978,40.474260],
-      //       [-3.872987,40.474142],
-      //       [-3.873039,40.474150]
-      //     ]]]
-      //   }
-      // });
 
-      // var featureStyle = {
-      //   fillColor: 'rgba(255,255,255,0.0)',
-      //   fillOpacity: 0.7,
-      //   strokeWeight: 1.5,
-      //   strokeColor: '#666'
-      // }
-
-      // this.map.data.setStyle(featureStyle);
     },
 
     _onResize: function() {

@@ -7,7 +7,7 @@
   var CookieBanner = Backbone.View.extend({
 
     events: {
-      'click .close': '_onClickClose'
+      'click .js-close': '_onClickClose'
     },
 
     render: function() {

@@ -21,7 +21,15 @@
         this._initBinds();
       },
 
-      _initViews: function() {},
+      _initViews: function() {
+        // Parallax
+        this.$('.parallax-window').parallax();
+
+        // Last posts
+        var lastPosts = new LastPosts({
+          el: this.$('.js-posts')
+        });
+      },
 
       _initBinds: function() {
         this.model.bind('change:active', this._onActiveChange, this);

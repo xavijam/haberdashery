@@ -17,27 +17,27 @@
       initialize: function(obj) {
         this.options = obj;
         this.model = new Backbone.Model({ active: false });
-        // this.cookie = new CookieModel({ id: 'merceria-alonso' });
+        this.cookie = new CookieModel({ id: 'merceria-alonso' });
         this._initViews();
         this._initBinds();
       },
 
       _initViews: function() {
+        // Show cookies?
+        var cookie_banner = new CookieBanner({
+          el: this.$('.js-cookie'),
+          model: this.cookie
+        });
+        cookie_banner.render();
+
         // Map
         var location_map = new LocationMap({
           el: this.$('.js-map')
         });
         location_map.render();
 
-        // Show cookies?
-        // var cookie_banner = new CookieBanner({
-        //   el: this.$('.cookie-banner'),
-        //   model: this.cookie
-        // });
-        // cookie_banner.render();
-
         // Parallax
-        this.$('.parallax-window').parallax({ imageSrc: '/img/shop/shop.jpg' });
+        this.$('.parallax-window').parallax({ imageSrc: '/img/layout/shop4.jpg' });
 
         // Last posts
         var lastPosts = new LastPosts({

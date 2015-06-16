@@ -1,0 +1,38 @@
+// Table styles
+// --------------------------------------------------
+
+.Table {
+  margin: 50px 0;
+  border: 1px solid #CCC;
+  border-spacing: 0;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+
+.Table th,
+.Table td { padding: 6px 10px }
+
+.Table th {
+  vertical-align: middle;
+  background: #666;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.Table td {
+  padding: 10px;
+  vertical-align: middle;
+  min-width: 100px;
+  color: #878787;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  border: 1px solid #CCC;
+}
+
+@media (min-width: 0) and (max-width: 567px) {
+  table td { min-width:inherit }
+}

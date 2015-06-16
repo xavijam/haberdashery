@@ -1,5 +1,5 @@
 ---
-layout:       page
+layout:       app
 title:        Tienda
 type:         default
 description:  >
@@ -93,14 +93,14 @@ permalink:    /tienda/
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
 <!-- build:js(app) /js/shop.js -->
-  <script src="/js/vendor/jquery.min.js"></script>
-  <script src="/js/vendor/parallax.min.js"></script>
+  <script src="/_bower_components/jquery/jquery.js"></script>
   <script src="/_bower_components/underscore/underscore.js"></script>
   <script src="/_bower_components/backbone/backbone.js"></script>
-  <!-- <script src="/_bower_components/jquery-cookie/jquery.cookie.js"></script>
+  <script src="/_bower_components/jquery-cookie/jquery.cookie.js"></script>
+  <script src="/js/vendor/parallax.min.js"></script>
   <script src="/js/models/cookie_model.js"></script>
-  <script src="/js/cookie_banner.js"></script> -->
   <script src="/js/last_posts.js"></script>
+  <script src="/js/cookie_banner.js"></script>
   <script src="/js/shop/map.js"></script>
   <script src="/js/shop/shop.js"></script>
 <!-- endbuild -->

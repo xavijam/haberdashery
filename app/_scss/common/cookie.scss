@@ -1,0 +1,38 @@
+// Cookie styles
+// --------------------------------------------------
+
+.Cookie {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  background: url('/img/layout/pattern.jpg') repeat center center;
+  box-shadow: 0 0 10px 0 rgba(black, 0.2);
+}
+.Cookie-inner {
+  display: block;
+  padding: 20px;
+  border: 1px dashed green;
+}
+.Cookie-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #666;
+  &:hover { color: #333 }
+}
+.Cookie-text {
+  font-size: 12px;
+}
+
+@media (min-width: 0) and (max-width: 720px) {
+  .Cookie {
+    right: 20px;
+    width: auto;
+  }
+}

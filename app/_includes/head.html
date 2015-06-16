@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}Mercería Alonso · {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Mercería Alonso</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
@@ -40,12 +40,17 @@
   <link rel="stylesheet" href="/_bower_components/flickerplate/css/flickerplate.css"></script>
   <link rel="stylesheet" href="/css/vendor/pure-min.css">
   <link rel="stylesheet" href="/css/vendor/responsive-pure-grid.css">
+  <link rel="stylesheet" href="/css/vendor/jquery.weekcalendar.css">
   <link rel="stylesheet" href="/css/ui/default.css">
   <link rel="stylesheet" href="/css/ui/list.css">
   <link rel="stylesheet" href="/css/ui/block.css">
   <link rel="stylesheet" href="/css/ui/buttons.css">
+  <link rel="stylesheet" href="/css/ui/calendar.css">
+  <link rel="stylesheet" href="/css/ui/table.css">
   <link rel="stylesheet" href="/css/common/header.css">
   <link rel="stylesheet" href="/css/common/content.css">
+  <link rel="stylesheet" href="/css/common/last-posts.css">
+  <link rel="stylesheet" href="/css/common/cookie.css">
   <link rel="stylesheet" href="/css/common/footer.css">
   <link rel="stylesheet" href="/css/content-header.css">
   <link rel="stylesheet" href="/css/products.css">

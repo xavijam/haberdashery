@@ -28,7 +28,7 @@ permalink:    /tienda/
     </div>
     <div class="Block-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
       <div class="l-box">
-        <img class="pure-img" src="/img/shop/shop2.jpg" title="Tienda" alt="Tienda" />
+        <img class="pure-img" src="/img/layout/shop3.jpg" title="Tienda" alt="Tienda" />
       </div>
     </div>
   </div>

@@ -76,7 +76,7 @@ sitemap:      false
 </div>
 
 
-<!-- build:js(cookies) /js/cookies.js -->
+<!-- build:js(app) /js/cookies.js -->
 <script src="/_bower_components/jquery/jquery.js"></script>
 <script src="/_bower_components/underscore/underscore.js"></script>
 <script src="/_bower_components/backbone/backbone.js"></script>

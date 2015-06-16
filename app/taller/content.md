@@ -13,8 +13,9 @@ permalink:    /taller/
 
 <div class="ContentHeader flicker-example js-slider" data-dot-navigation="true" data-block-text="false" data-auto-flick-delay="6" data-flick-position="1">
   <ul>
-    <li data-background="/img/home/slider/shop1.jpg"></li>
-    <li data-background="/img/home/slider/shop2.jpg"></li>
+    <li data-background="/img/layout/shop1.jpg"></li>
+    <li data-background="/img/layout/shop2.jpg"></li>
+    <li data-background="/img/layout/shop5.jpg"></li>
   </ul>
   <h2 class="ContentHeader-title PageTitle">Taller</h2>
 </div>

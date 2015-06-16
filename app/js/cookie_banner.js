@@ -21,4 +21,4 @@
       this.model.save({ 'merceria-alonso': true });
     }
 
-  })
+  });

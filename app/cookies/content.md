@@ -16,7 +16,11 @@ sitemap:      false
 <div class="Block">
   <div class="u-inner">
     <div class="Block-inner">
-      <p class="DefaultParagraph">En la web de Mercería Alonso utilizamos las siguientes cookies:</p>
+
+      <div class="Block-header">
+        <p class="Block-text">En la web de Mercería Alonso utilizamos las siguientes cookies:</p>
+      </div>
+
       <table class="Table">
         <thead>
           <tr>

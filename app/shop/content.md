@@ -98,9 +98,10 @@ permalink:    /tienda/
   <script src="/_bower_components/backbone/backbone.js"></script>
   <script src="/_bower_components/jquery-cookie/jquery.cookie.js"></script>
   <script src="/js/vendor/parallax.min.js"></script>
-  <script src="/js/models/cookie_model.js"></script>
-  <script src="/js/last_posts.js"></script>
-  <script src="/js/cookie_banner.js"></script>
+  <script src="/js/common/cookie_model.js"></script>
+  <script src="/js/common/last_posts.js"></script>
+  <script src="/js/common/cookie_banner.js"></script>
+  <script src="/js/common/page_view.js"></script>
   <script src="/js/shop/map.js"></script>
   <script src="/js/shop/shop.js"></script>
 <!-- endbuild -->

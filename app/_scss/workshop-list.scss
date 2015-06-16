@@ -1,0 +1,44 @@
+// Product styles
+// --------------------------------------------------
+
+@import "ui/colors";
+
+.WorkshopList { margin-top: 80px }
+.WorkshopList-item {
+  overflow: visible;
+  position: relative;
+  display: inline-block;
+  margin: 50px 0;
+}
+.WorkshopList-itemRight { float: right }
+.WorkshopList-itemLeft { float: left }
+.WorkshopList-image { text-align: center }
+.WorkshopList-image .pure-img { display: inline-block }
+.WorkshopList-image .pure-img.punto { margin-top: 90px }
+.WorkshopList-image .pure-img.canastilla { margin-top: 55px }
+.WorkshopList-image .pure-img.patchwork { margin-top: 132px }
+.WorkshopList-image .pure-img.crochet { margin-top: 45px }
+
+.SewingMachines {
+  padding: 0 0;
+  background: #EEE;
+}
+.SewingMachines .pure-img.maquina { margin-top: -65px }
+
+
+@media (min-width: 0) and (max-width: 768px) {
+  .WorkshopList { margin-top: 40px }
+  .WorkshopList-item {
+    overflow: auto;
+    display: inherit;
+    margin: 20px 0;
+  }
+  .WorkshopList-itemRight,
+  .WorkshopList-itemLeft { float: none }
+
+  .WorkshopList-image .pure-img.punto,
+  .WorkshopList-image .pure-img.canastilla,
+  .WorkshopList-image .pure-img.patchwork,
+  .WorkshopList-image .pure-img.crochet { margin-top: 0 }
+  .SewingMachines .pure-img.maquina { margin-top: -35px }
+}

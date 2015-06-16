@@ -76,27 +76,15 @@ sitemap:      false
 </div>
 
 
-
-
-
-
-
-<section class="page-item page-item-center">
-  <div class="page-item-inner">
-    
-  </div>
-
-  <div class="page-item-inner page-item-to-left">
-   
-  </div>
-</section>
-
-
 <!-- build:js(cookies) /js/cookies.js -->
 <script src="/_bower_components/jquery/jquery.js"></script>
 <script src="/_bower_components/underscore/underscore.js"></script>
 <script src="/_bower_components/backbone/backbone.js"></script>
+<script src="/_bower_components/jquery-cookie/jquery.cookie.js"></script>
 <script src="/js/vendor/parallax.min.js"></script>
-<script src="/js/last_posts.js"></script>
+<script src="/js/common/cookie_model.js"></script>
+<script src="/js/common/last_posts.js"></script>
+<script src="/js/common/cookie_banner.js"></script>
+<script src="/js/common/page_view.js"></script>
 <script src="/js/cookies/cookies.js"></script>
 <!-- endbuild -->

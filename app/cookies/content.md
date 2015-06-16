@@ -9,7 +9,7 @@ type:         default
 sitemap:      false
 ---
 
-<div class="ContentHeader parallax-window" data-position="center center" data-bleed="10" data-natural-width="1024" data-natural-height="622" data-image-src="/img/layout/shop5.jpg">
+<div class="ContentHeader parallax-window" data-position="center center" data-bleed="10" data-natural-width="1024" data-natural-height="622">
   <h2 class="ContentHeader-title PageTitle">Cookies</h2>
 </div>
 

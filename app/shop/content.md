@@ -8,7 +8,7 @@ description:  >
 permalink:    /tienda/
 ---
 
-<div class="ContentHeader parallax-window" data-position="center center" data-bleed="10" data-natural-width="1024" data-natural-height="768" data-image-src="/img/shop/shop.jpg">
+<div class="ContentHeader parallax-window" data-position="center center" data-bleed="10" data-natural-width="1024" data-natural-height="768">
   <h2 class="ContentHeader-title PageTitle">Tienda</h2>
 </div>
 

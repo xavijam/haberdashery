@@ -12,7 +12,7 @@ $(function(){
       PageView.prototype._initViews.call(this);
       
       // Parallax
-      this.$('.parallax-window').parallax();
+      this.$('.parallax-window').parallax({ imageSrc: '/img/layout/shop5.jpg' });
     }
   });
 

@@ -18,7 +18,7 @@ $(function(){
       location_map.render();
 
       // Parallax
-      this.$('.parallax-window').parallax({ imageSrc: '/img/shop/shop.jpg' });
+      this.$('.parallax-window').parallax({ imageSrc: '/img/layout/shop.jpg' });
     }
 
   });

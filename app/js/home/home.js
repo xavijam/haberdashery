@@ -10,7 +10,7 @@
 
       events: {
         "click a[href*=#]:not([href=#])": "_scrollTo",
-        "click .header-comp-nav": "_changeActive",
+        "click .js-headerButton": "_changeActive",
         "click": "_removeActive"
       },
 

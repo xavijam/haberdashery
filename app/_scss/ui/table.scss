@@ -23,9 +23,9 @@
 }
 
 .Table td {
-  padding: 10px;
   vertical-align: middle;
   min-width: 100px;
+  padding: 10px;
   color: #878787;
   font-size: 15px;
   font-weight: 300;
@@ -34,5 +34,10 @@
 }
 
 @media (min-width: 0) and (max-width: 567px) {
-  table td { min-width:inherit }
+  .Table th { font-size: 13px }
+  .Table td {
+    min-width: inherit;
+    padding: 5px;
+    font-size: 13px;
+  }
 }

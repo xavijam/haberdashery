@@ -8,7 +8,7 @@ var Post = Backbone.Model.extend({
     body: '',
     name: '',
     blog_name: '',
-    title: ''  
+    title: ''
   }
 })
 
@@ -56,19 +56,15 @@ var LastPosts = Backbone.View.extend({
   _getPosts: function() {
     var self = this;
     $.ajax({
-      url: "//api.tumblr.com/v2/blog/" + this._NAME + ".tumblr.com/posts?api_key=" + this._KEY + "&limit=3",
+      url: "//api.tumblr.com/v2/blog/" + this._NAME + ".tumblr.com/posts?api_key=" + this._KEY + "&limit=2",
       dataType: "jsonp",
       jsonp: "jsonp"
     }).success(function(r) {
       if (r.response.posts.length > 0) {
-        self.collection.reset(r.response.posts);  
+        self.collection.reset(r.response.posts);
       } else {
         self.hide();
       }
     });
   }
-
 });
-
-
-

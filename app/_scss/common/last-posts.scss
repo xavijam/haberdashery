@@ -38,4 +38,17 @@
   font-weight: 300;
   line-height: 22px;
 }
-.LastPosts-item img { margin: 20px 0 }
+.LastPosts-itemImage {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.LastPosts-itemImage .pure-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: -50%;
+}

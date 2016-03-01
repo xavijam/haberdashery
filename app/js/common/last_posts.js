@@ -27,7 +27,11 @@ var LastPosts = Backbone.View.extend({
     "</li>",
     photo: "<li class='Block-item LastPosts-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-2'>"+
       "<div class='l-box'>"+
-        "<!--img class='pure-img' src='<%= photos[0].alt_sizes[0].url %>' alt='<%= slug %>' title='<%= slug %>'/-->"+
+        "<a href='<%= post_url %>'>"+
+          "<div class='LastPosts-itemImage'>"+
+            "<img class='pure-img' src='<%= photos[0].alt_sizes[0].url %>' alt='<%= slug %>' title='<%= slug %>'/>"+
+          "</div>"+
+        "</a>"+
         "<% if (caption) { %><div class='LastPosts-itemBody'><%= caption.substring(0, 300) %>... <a href='<%= post_url %>'>ver más</a></div><% } %>"+
       "</div>"+
     "</li>"

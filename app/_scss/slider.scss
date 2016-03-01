@@ -1,0 +1,67 @@
+// Custom slider styles
+// --------------------------------------------------
+
+.Slider {
+  position: relative;
+}
+.Slider-logo {
+  position: absolute;
+  box-sizing: content-box;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  border: 3px solid white;
+  border-radius: 100%;
+  background: rgba(white, 0.2);
+  z-index: 1000;
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+}
+.Slider-logoTitle {
+  width: 100%;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.Slider-logoBoni {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+  margin-left: -1px;
+  background: white;
+  transform-origin: 50% 120px;
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: -12px;
+    left: -5px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+}
+.Slider-logoBoni.is-hidden {
+  &:after {
+    background: white;
+    top: -4px;
+  }
+}

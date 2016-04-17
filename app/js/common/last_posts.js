@@ -22,7 +22,7 @@ var LastPosts = Backbone.View.extend({
     "<li class='Block-item LastPosts-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-2'>"+
       "<div class='l-box'>"+
         "<h3 class='LastPosts-itemTitle DefaultTitle'><%= title %></h3>"+
-        "<div class='LastPosts-itemBody DefaultParagraph'><%= body.substring(0, 300) %>... <a href='<%= post_url %>'>ver más</a></div>"+
+        "<div class='LastPosts-itemBody DefaultParagraph'><%= body.substring(0, 300) %>... <a class='LastPosts-itemLink' href='<%= post_url %>'>ver más</a></div>"+
       "</div>"+
     "</li>",
     photo: "<li class='Block-item LastPosts-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-2'>"+
@@ -32,7 +32,7 @@ var LastPosts = Backbone.View.extend({
             "<img class='pure-img' src='<%= photos[0].alt_sizes[0].url %>' alt='<%= slug %>' title='<%= slug %>'/>"+
           "</div>"+
         "</a>"+
-        "<% if (caption) { %><div class='LastPosts-itemBody'><%= caption.substring(0, 300) %>... <a href='<%= post_url %>'>ver más</a></div><% } %>"+
+        "<% if (caption) { %><div class='LastPosts-itemBody'><%= caption.substring(0, 300) %>... <a class='LastPosts-itemLink' href='<%= post_url %>'>ver más</a></div><% } %>"+
       "</div>"+
     "</li>"
   },

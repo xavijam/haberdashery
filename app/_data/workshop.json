@@ -1,11 +1,13 @@
 {
   "types": {
     "Punto":              "#C6D0EB",
+    "Bordado a mano":     "#FFC686",
+    "Bolillos":           "#A0EBFE",
     "Corte y confección": "#ADF3E8",
     "Ganchillo":          "#FFCCCB",
     "Patchwork":          "#F4E6A3",
     "Cartonaje":          "#85B2E9"
-  },  
+  },
   "classes": [
     {
       "type":       "monthly",
@@ -16,7 +18,6 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -26,37 +27,15 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Patchwork",
+      "title":      "Bordado a mano",
       "day":        "monday",
       "hourStart":  "12",
       "minStart":   "0",
       "hourEnd":    "14",
       "minEnd":     "0"
     },
-
-    {
-      "type":       "monthly",
-      "title":      "Punto",
-      "day":        "monday",
-      "hourStart":  "16",
-      "minStart":   "0",
-      "hourEnd":    "18",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Corte y confección",
-      "day":        "monday",
-      "hourStart":  "16",
-      "minStart":   "0",
-      "hourEnd":    "18",
-      "minEnd":     "0"
-    },
-
     {
       "type":       "monthly",
       "title":      "Punto",
@@ -66,7 +45,6 @@
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -76,7 +54,6 @@
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Punto",
@@ -86,7 +63,6 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -96,27 +72,6 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
-    {
-      "type":       "monthly",
-      "title":      "Punto",
-      "day":        "tuesday",
-      "hourStart":  "12",
-      "minStart":   "0",
-      "hourEnd":    "14",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Patchwork",
-      "day":        "tuesday",
-      "hourStart":  "12",
-      "minStart":   "0",
-      "hourEnd":    "14",
-      "minEnd":     "0"
-    },
-
     {
       "type":       "monthly",
       "title":      "Patchwork",
@@ -126,7 +81,15 @@
       "hourEnd":    "18",
       "minEnd":     "0"
     },
-
+    {
+      "type":       "monthly",
+      "title":      "Punto",
+      "day":        "tuesday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -136,7 +99,6 @@
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Patchwork",
@@ -146,17 +108,15 @@
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Punto",
+      "title":      "Patchwork",
       "day":        "wednesday",
       "hourStart":  "10",
       "minStart":   "0",
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -166,7 +126,15 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
+    {
+      "type":       "monthly",
+      "title":      "Bordado a mano",
+      "day":        "wednesday",
+      "hourStart":  "12",
+      "minStart":   "0",
+      "hourEnd":    "14",
+      "minEnd":     "0"
+    },
     {
       "type":       "monthly",
       "title":      "Patchwork",
@@ -176,27 +144,15 @@
       "hourEnd":    "14",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Punto",
-      "day":        "wednesday",
-      "hourStart":  "12",
-      "minStart":   "0",
-      "hourEnd":    "14",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Punto",
+      "title":      "Corte y confección",
       "day":        "wednesday",
       "hourStart":  "16",
       "minStart":   "0",
       "hourEnd":    "18",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Punto",
@@ -206,17 +162,15 @@
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Cartonaje",
+      "title":      "Corte y confección",
       "day":        "wednesday",
       "hourStart":  "18",
       "minStart":   "0",
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Punto",
@@ -226,17 +180,24 @@
       "hourEnd":    "12",
       "minEnd":     "0"
     },
-
+    {
+      "type":       "monthly",
+      "title":      "Corte y confección",
+      "day":        "thursday",
+      "hourStart":  "10",
+      "minStart":   "0",
+      "hourEnd":    "12",
+      "minEnd":     "0"
+    },
     {
       "type":       "monthly",
       "title":      "Cartonaje",
       "day":        "thursday",
-      "hourStart":  "12",
+      "hourStart":  "16",
       "minStart":   "0",
-      "hourEnd":    "14",
+      "hourEnd":    "18",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
       "title":      "Corte y confección",
@@ -246,54 +207,31 @@
       "hourEnd":    "18",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Corte y confección",
+      "title":      "Punto",
+      "day":        "thursday",
+      "hourStart":  "16",
+      "minStart":   "0",
+      "hourEnd":    "18",
+      "minEnd":     "0"
+    },
+    {
+      "type":       "monthly",
+      "title":      "Patchwork",
       "day":        "thursday",
       "hourStart":  "18",
       "minStart":   "0",
       "hourEnd":    "20",
       "minEnd":     "0"
     },
-
     {
       "type":       "monthly",
-      "title":      "Punto",
-      "day":        "thursday",
-      "hourStart":  "18",
-      "minStart":   "0",
-      "hourEnd":    "20",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Punto",
+      "title":      "Bolillos",
       "day":        "friday",
-      "hourStart":  "16",
+      "hourStart":  "18",
       "minStart":   "0",
-      "hourEnd":    "18",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Corte y confección",
-      "day":        "saturday",
-      "hourStart":  "10",
-      "minStart":   "0",
-      "hourEnd":    "12",
-      "minEnd":     "0"
-    },
-
-    {
-      "type":       "monthly",
-      "title":      "Punto",
-      "day":        "saturday",
-      "hourStart":  "12",
-      "minStart":   "0",
-      "hourEnd":    "14",
+      "hourEnd":    "20",
       "minEnd":     "0"
     }
   ]

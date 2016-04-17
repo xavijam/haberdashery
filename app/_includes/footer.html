@@ -2,7 +2,7 @@
   <div class="Footer-inner u-inner">
     <a class="Footer-logo" href="{{ site.baseurl }}/"></a>
     <nav class="Footer-nav">
-      <a href="/" class="Footer-navLink {% if (page.url == '/' or page.url == '') %} is-selected {% endif %}">home</a>
+      <a href="/" class="Footer-navLink {% if (page.url == '/' or page.url == '') %} is-selected {% endif %}">inicio</a>
       <a href="/taller/" class="Footer-navLink {% if (page.url == '/taller/') %} is-selected {% endif %}">taller</a>
       <a href="/#productos" class="Footer-navLink">productos</a>
       <a href="/tienda/" class="Footer-navLink {% if page.url == '/tienda/' %} is-selected {% endif %}">tienda</a>
@@ -10,9 +10,15 @@
     </nav>
     <div class="Footer-rights">® {{ site.time | date: '%Y' }} Mercería Alonso</div>
     <div class="Footer-social">
-      <a class="Footer-socialLink Footer-socialLink--facebook" href="http://facebook.com/merceriaalonso"><i class="fa fa-facebook"></i></a>
-      <a class="Footer-socialLink Footer-socialLink--twitter" href="http://twitter.com/merceriaalonso"><i class="fa fa-twitter"></i></a>
-      <a class="Footer-socialLink Footer-socialLink--email" href="mailto:{{ site.email }}"><i class="fa fa-send"></i></a>
+      <a class="Footer-socialLink Footer-socialLink--facebook" href="http://facebook.com/merceriaalonso">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a class="Footer-socialLink Footer-socialLink--twitter" href="http://twitter.com/merceriaalonso">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a class="Footer-socialLink Footer-socialLink--email" href="mailto:{{ site.email }}">
+        <i class="fa fa-send"></i>
+      </a>
     </div>
   </div>
 </footer>
